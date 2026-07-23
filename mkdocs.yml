@@ -45,6 +45,10 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 plugins:
   - search
+extra_css:
+  - stylesheets/olympus.css
+extra_javascript:
+  - javascripts/olympus.js
 validation:
   links:
     not_found: ignore

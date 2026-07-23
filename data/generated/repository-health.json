@@ -21,7 +21,7 @@
       "issues": [],
       "metrics": {
         "files": 1081,
-        "tables": 287
+        "tables": 286
       },
       "name": "markdown",
       "passed": true
@@ -29,7 +29,7 @@
     {
       "issues": [],
       "metrics": {
-        "internal_links": 3946
+        "internal_links": 3935
       },
       "name": "links",
       "passed": true
@@ -94,26 +94,26 @@
       "passed": true
     }
   ],
-  "generated_at": "2026-07-23T10:09:14.212004+00:00",
+  "generated_at": "2026-07-23T10:22:23.270357+00:00",
   "statistics": {
     "approved_or_released": 206,
     "completion_percentage": 19.06,
     "decision_trees": 149,
-    "generated_at": "2026-07-23T10:09:14.123000+00:00",
+    "generated_at": "2026-07-23T10:22:23.177357+00:00",
     "markdown_files": 1081,
-    "markdown_links": 3946,
+    "markdown_links": 3935,
     "mermaid_diagrams": 159,
     "planned": 845,
     "readme_files": 494,
-    "tables": 287,
-    "word_count": 219728
+    "tables": 286,
+    "word_count": 219959
   },
   "status": "healthy",
   "trend_from_previous_generation": {
     "markdown_files": 0,
-    "markdown_links": 7,
+    "markdown_links": -11,
     "mermaid_diagrams": 0,
-    "tables": 0,
-    "word_count": 104
+    "tables": -1,
+    "word_count": 231
   }
 }
