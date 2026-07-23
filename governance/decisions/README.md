@@ -24,6 +24,7 @@ Active. Proposed records do not authorize implementation until approved.
 - [ADR-002 Sprint 03C File Contract Conflict](ADR-002-sprint-03c-file-contract-conflict.md)
 - [ADR-003 Specification Management Structure](ADR-003-specification-management-structure.md)
 - [ADR-004 Fourteen-Volume Knowledge System Conflict](ADR-004-fourteen-volume-knowledge-system.md)
+- [ADR-005 Owner's Manual Root Files Conflict](ADR-005-owner-manual-files.md)
 
 ## Dependencies
 

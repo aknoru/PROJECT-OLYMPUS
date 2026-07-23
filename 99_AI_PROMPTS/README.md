@@ -3,7 +3,7 @@ id: 99-AI-PROMPTS-README-MD
 title: "Project Olympus Prompt Registry"
 type: readme
 status: active
-version: 1.1.0
+version: 1.2.0
 owner: project-maintainer
 ---
 
@@ -15,7 +15,7 @@ Maintain the canonical, version-controlled archive of formal prompts used to bui
 
 ## Status
 
-Active. Seventeen distinct prompt assets are archived; eight canonical slots remain reserved.
+Active. Eighteen distinct prompt assets are archived; seven canonical slots remain reserved.
 
 ## Contents
 
@@ -38,12 +38,12 @@ Active. Seventeen distinct prompt assets are archived; eight canonical slots rem
 | 15 | [Prompt_15.md](Prompt_15.md) | Implementation Prompt 03K — Appendices, References & Final Release | 1.0 | executed |
 | 16 | [Prompt_16.md](Prompt_16.md) | Implementation Prompt 04 — Execution Platform & Repository Automation | 1.1 | executed |
 | 17 | [Prompt_17.md](Prompt_17.md) | Master Implementation Prompt — 14-Volume Knowledge System | 2.0 | blocked |
+| 18 | [Prompt_18.md](Prompt_18.md) | Master Implementation Prompt — Owner's Manual | 1.0 | blocked |
 
 Superseded prompts remain in the registry to preserve the implementation history. Duplicate attachment submissions of the same prompt are represented once.
 
 ## Reserved Assets
 
-- [Prompt_18.md](Prompt_18.md) — reserved
 - [Prompt_19.md](Prompt_19.md) — reserved
 - [Prompt_20.md](Prompt_20.md) — reserved
 - [Prompt_21.md](Prompt_21.md) — reserved
@@ -72,8 +72,10 @@ Assign reserved slots sequentially only when a new formal Project Olympus prompt
 - [x] Preserve superseded 03C and 03E revisions.
 - [x] Distinguish used assets from reserved slots.
 - [x] Register the 14-volume master implementation prompt in slot 17.
+- [x] Register the Owner's Manual implementation prompt in slot 18.
 - [ ] Resolve ADR-004 before implementing the proposed volume architecture.
-- [ ] Register the next approved prompt in slot 18.
+- [ ] Resolve ADR-005 before adding the proposed manual files.
+- [ ] Register the next approved prompt in slot 19.
 
 ## Cross References
 

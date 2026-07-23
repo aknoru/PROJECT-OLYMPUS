@@ -8183,10 +8183,10 @@
       "id": "99-AI-PROMPTS-PROMPT-18",
       "owner": "project-maintainer",
       "path": "99_AI_PROMPTS/Prompt_18.md",
-      "status": "reserved",
-      "title": "Reserved Prompt 18",
+      "status": "blocked",
+      "title": "Master Implementation Prompt \u2014 Owner's Manual",
       "type": "ai-prompt",
-      "version": "0.1.0"
+      "version": "1.0"
     },
     {
       "id": "99-AI-PROMPTS-PROMPT-19",
@@ -8258,7 +8258,7 @@
       "status": "active",
       "title": "Project Olympus Prompt Registry",
       "type": "readme",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     {
       "id": "ARCHIVE-CAMPAIGNS-README-MD",
@@ -8983,6 +8983,16 @@
       "path": "governance/decisions/ADR-004-fourteen-volume-knowledge-system.md",
       "status": "proposed",
       "title": "Fourteen-Volume Knowledge System Architecture Conflict",
+      "type": "architecture-decision-record",
+      "version": "0.1.0"
+    },
+    {
+      "date": "2026-07-23",
+      "id": "ADR-005",
+      "owner": "project-maintainer",
+      "path": "governance/decisions/ADR-005-owner-manual-files.md",
+      "status": "proposed",
+      "title": "Owner's Manual Root Files Conflict",
       "type": "architecture-decision-record",
       "version": "0.1.0"
     },

@@ -15,6 +15,15 @@ Record approved implementation changes, known issues, and related decisions.
 
 ## Unreleased
 
+### Owner's Manual Proposal — 2026-07-23
+
+- Archived the Version 1.0 Owner's Manual prompt in canonical prompt asset slot
+  18.
+- Recorded the noncanonical `GUIDE.md` and
+  `GUIDE_IMPLEMENTATION_REPORT.md` conflict in ADR-005.
+- Preserved the approved documentation architecture pending a maintainer
+  decision or revised canonical mapping.
+
 ### 14-Volume Knowledge System Proposal — 2026-07-23
 
 - Archived the Version 2.0 master implementation prompt in canonical prompt
