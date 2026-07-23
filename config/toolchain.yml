@@ -1,0 +1,13 @@
+schema_version: 1.0.0
+status: active
+kind: toolchain
+python:
+  minimum: "3.11"
+  test_command: python -m unittest discover -s tests -p test_*.py
+  validation_command: python scripts/validate_repository.py
+documentation:
+  command: mkdocs build --clean
+node:
+  minimum: "20"
+  markdown_command: npm run lint:markdown
+platforms: [windows, linux, macos]

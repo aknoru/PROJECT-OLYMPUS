@@ -1,0 +1,13 @@
+{
+  "approved_or_released": 201,
+  "completion_percentage": 18.61,
+  "decision_trees": 149,
+  "generated_at": "2026-07-23T09:13:22.113981+00:00",
+  "markdown_files": 1080,
+  "markdown_links": 3887,
+  "mermaid_diagrams": 159,
+  "planned": 850,
+  "readme_files": 494,
+  "tables": 275,
+  "word_count": 217416
+}

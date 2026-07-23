@@ -1,0 +1,17 @@
+schema_version: 1.0.0
+status: example
+kind: renaissance-configuration
+classification: synthetic
+campaign:
+  start_date: "2030-08-01"
+  end_date: "2031-01-31"
+  timezone: UTC
+  buffer_fraction: 0.20
+  active_project_limit: 2
+paths:
+  private_observations: private/data
+  generated_calendar: data/generated/renaissance-calendar.csv
+rules:
+  dates_are_configurable: true
+  phase_advancement_requires_evidence: true
+  automatic_backlog_rollover: false

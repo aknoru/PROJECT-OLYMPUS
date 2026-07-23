@@ -1,0 +1,9 @@
+schema_version: 0.1.0
+status: active
+kind: content-registry
+items:
+  - id: GOV-AI-EXECUTION-RULES
+    path: governance/AI_EXECUTION_RULES.md
+    type: governance-policy
+    status: approved
+    owner: project-maintainer

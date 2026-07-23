@@ -1,0 +1,16 @@
+schema_version: 1.0.0
+status: active
+kind: project
+project:
+  id: project-olympus
+  version_file: VERSION
+  architecture: MASTER_ARCHITECTURE.md
+  private_data_root: private
+validation:
+  fail_on_errors: true
+  warnings_as_errors: false
+  generated_root: data/generated
+documentation:
+  engine: mkdocs-material
+  config: mkdocs.yml
+  output: site

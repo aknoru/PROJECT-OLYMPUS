@@ -1,0 +1,6 @@
+schema_version: 0.1.0
+status: planned
+kind: config
+items: []
+todo:
+  - Populate during the applicable implementation prompt.

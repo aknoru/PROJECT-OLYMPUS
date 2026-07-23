@@ -1,0 +1,481 @@
+schema_version: 0.1.0
+status: active
+kind: dependency-registry
+items:
+  - id: REN-CHARTER-README
+    path: 01-operation-renaissance/01-charter/README.md
+    depends_on: [MASTER-ARCHITECTURE]
+  - id: REN-QS-PREFLIGHT
+    path: 01-operation-renaissance/00-quickstart/preflight-checklist.md
+    depends_on: [MASTER-ARCHITECTURE]
+  - id: REN-QS-BASELINE
+    path: 01-operation-renaissance/00-quickstart/baseline-assessment.md
+    depends_on: [REN-QS-PREFLIGHT]
+  - id: REN-QS-FIRST-WEEK
+    path: 01-operation-renaissance/00-quickstart/first-week-setup.md
+    depends_on: [REN-QS-PREFLIGHT, REN-QS-BASELINE]
+  - id: REN-CHARTER-MISSION
+    path: 01-operation-renaissance/01-charter/mission.md
+    depends_on: [MASTER-ARCHITECTURE]
+  - id: REN-CHARTER-VISION
+    path: 01-operation-renaissance/01-charter/vision.md
+    depends_on: [REN-CHARTER-MISSION]
+  - id: REN-CHARTER-OBJECTIVES
+    path: 01-operation-renaissance/01-charter/objectives.md
+    depends_on: [REN-CHARTER-MISSION, REN-CHARTER-VISION]
+  - id: REN-CHARTER-SUCCESS
+    path: 01-operation-renaissance/01-charter/success-model.md
+    depends_on: [REN-CHARTER-OBJECTIVES]
+  - id: REN-CHARTER-CONSTRAINTS
+    path: 01-operation-renaissance/01-charter/constraints.md
+    depends_on: [REN-QS-PREFLIGHT, REN-QS-BASELINE]
+  - id: REN-CHARTER-CONTROLLABLES
+    path: 01-operation-renaissance/01-charter/controllables-vs-outcomes.md
+    depends_on: [REN-CHARTER-OBJECTIVES, REN-CHARTER-CONSTRAINTS]
+  - id: REN-CHARTER-PRINCIPLES
+    path: 01-operation-renaissance/01-charter/operating-principles.md
+    depends_on: [REN-CHARTER-CONTROLLABLES]
+  - id: REN-CHARTER-EXECUTION-PHILOSOPHY
+    path: 01-operation-renaissance/01-charter/execution-philosophy.md
+    depends_on: [REN-CHARTER-PRINCIPLES]
+  - id: REN-CHARTER-IDENTITY-CONTRACT
+    path: 01-operation-renaissance/01-charter/identity-contract.md
+    depends_on: [REN-CHARTER-PRINCIPLES]
+  - id: REN-CHARTER-COMMITMENT-CONTRACT
+    path: 01-operation-renaissance/01-charter/commitment-contract.md
+    depends_on:
+      - REN-QS-FIRST-WEEK
+      - REN-CHARTER-CONSTRAINTS
+      - REN-CHARTER-IDENTITY-CONTRACT
+  - id: REN-CHARTER-EXIT-CRITERIA
+    path: 01-operation-renaissance/01-charter/exit-criteria.md
+    depends_on: [REN-CHARTER-SUCCESS, REN-CHARTER-CONSTRAINTS]
+  - id: REN-ROAD-184
+    path: 01-operation-renaissance/02-roadmap/184-day-roadmap.md
+    depends_on: [REN-CHARTER-COMMITMENT-CONTRACT, REN-CHARTER-EXIT-CRITERIA]
+  - id: REN-ROAD-PHASE-0
+    path: 01-operation-renaissance/02-roadmap/phase-0-mobilize.md
+    depends_on: [REN-QS-FIRST-WEEK, REN-ROAD-184]
+  - id: REN-ROAD-PHASE-1
+    path: 01-operation-renaissance/02-roadmap/phase-1-foundations.md
+    depends_on: [REN-ROAD-PHASE-0]
+  - id: REN-ROAD-PHASE-2
+    path: 01-operation-renaissance/02-roadmap/phase-2-build.md
+    depends_on: [REN-ROAD-PHASE-1]
+  - id: REN-ROAD-PHASE-3
+    path: 01-operation-renaissance/02-roadmap/phase-3-integrate.md
+    depends_on: [REN-ROAD-PHASE-2]
+  - id: REN-ROAD-PHASE-4
+    path: 01-operation-renaissance/02-roadmap/phase-4-demonstrate.md
+    depends_on: [REN-ROAD-PHASE-3]
+  - id: REN-ROAD-PHASE-5
+    path: 01-operation-renaissance/02-roadmap/phase-5-consolidate.md
+    depends_on: [REN-ROAD-PHASE-4]
+  - id: REN-ROAD-MILESTONES
+    path: 01-operation-renaissance/02-roadmap/milestones.md
+    depends_on: [REN-ROAD-184]
+  - id: REN-ROAD-DEPENDENCIES
+    path: 01-operation-renaissance/02-roadmap/dependency-map.md
+    depends_on: [REN-CHARTER-README]
+  - id: REN-ROAD-CAPACITY
+    path: 01-operation-renaissance/02-roadmap/capacity-model.md
+    depends_on: [REN-QS-BASELINE, REN-CHARTER-CONSTRAINTS]
+  - id: REN-EXEC-README
+    path: 01-operation-renaissance/03-execution-system/README.md
+    depends_on: [REN-ROAD-184, REN-ROAD-CAPACITY]
+  - id: REN-EXEC-DAILY
+    path: 01-operation-renaissance/03-execution-system/daily-system.md
+    depends_on: [REN-EXEC-WEEKLY, REN-EXEC-TIMEBOX, REN-EXEC-SHUTDOWN]
+  - id: REN-EXEC-WEEKLY
+    path: 01-operation-renaissance/03-execution-system/weekly-system.md
+    depends_on: [REN-ROAD-CAPACITY, REN-EXEC-PRIORITY, REN-EXEC-WIP]
+  - id: REN-EXEC-MONTHLY
+    path: 01-operation-renaissance/03-execution-system/monthly-system.md
+    depends_on: [REN-EXEC-WEEKLY, REN-ROAD-MILESTONES]
+  - id: REN-EXEC-SEMESTER
+    path: 01-operation-renaissance/03-execution-system/semester-integration.md
+    depends_on: [REN-ROAD-CAPACITY, REN-EXEC-WEEKLY]
+  - id: REN-EXEC-TIMEBOX
+    path: 01-operation-renaissance/03-execution-system/timeboxing-protocol.md
+    depends_on: [REN-ROAD-CAPACITY]
+  - id: REN-EXEC-WIP
+    path: 01-operation-renaissance/03-execution-system/work-in-progress-limits.md
+    depends_on: [REN-ROAD-CAPACITY]
+  - id: REN-EXEC-PRIORITY
+    path: 01-operation-renaissance/03-execution-system/prioritization-protocol.md
+    depends_on: [REN-CHARTER-OBJECTIVES, REN-CHARTER-CONSTRAINTS, REN-EXEC-WIP]
+  - id: REN-EXEC-INTERRUPTION
+    path: 01-operation-renaissance/03-execution-system/interruption-protocol.md
+    depends_on: [REN-ROAD-CAPACITY, REN-EXEC-DAILY]
+  - id: REN-EXEC-SHUTDOWN
+    path: 01-operation-renaissance/03-execution-system/shutdown-protocol.md
+    depends_on: [REN-EXEC-TIMEBOX, REN-EXEC-WEEKLY]
+  - id: REN-STUDY-README
+    path: 01-operation-renaissance/04-study-system/README.md
+    depends_on: [REN-EXEC-README, REN-ROAD-PHASE-1]
+  - id: REN-STUDY-CURRICULUM
+    path: 01-operation-renaissance/04-study-system/curriculum-integration.md
+    depends_on: [REN-CHARTER-OBJECTIVES, REN-ROAD-DEPENDENCIES]
+  - id: REN-STUDY-CYCLE
+    path: 01-operation-renaissance/04-study-system/learning-cycle.md
+    depends_on: [REN-STUDY-CURRICULUM]
+  - id: REN-STUDY-ACTIVE-RECALL
+    path: 01-operation-renaissance/04-study-system/active-recall.md
+    depends_on: [REN-STUDY-CYCLE]
+  - id: REN-STUDY-SPACED
+    path: 01-operation-renaissance/04-study-system/spaced-practice.md
+    depends_on: [REN-STUDY-ACTIVE-RECALL]
+  - id: REN-STUDY-INTERLEAVING
+    path: 01-operation-renaissance/04-study-system/interleaving.md
+    depends_on: [REN-STUDY-CYCLE, REN-STUDY-SPACED]
+  - id: REN-STUDY-PROBLEM-SOLVING
+    path: 01-operation-renaissance/04-study-system/problem-solving.md
+    depends_on: [REN-STUDY-CYCLE]
+  - id: REN-STUDY-ERROR-LOG
+    path: 01-operation-renaissance/04-study-system/error-log-protocol.md
+    depends_on: [REN-STUDY-PROBLEM-SOLVING]
+  - id: REN-STUDY-NOTES
+    path: 01-operation-renaissance/04-study-system/note-making.md
+    depends_on: [REN-STUDY-CURRICULUM]
+  - id: REN-STUDY-MASTERY
+    path: 01-operation-renaissance/04-study-system/concept-mastery-rubric.md
+    depends_on: [REN-STUDY-CYCLE, REN-STUDY-ERROR-LOG]
+  - id: REN-STUDY-ASSESSMENT
+    path: 01-operation-renaissance/04-study-system/assessment-protocol.md
+    depends_on: [REN-STUDY-MASTERY]
+  - id: REN-GATE-README
+    path: 01-operation-renaissance/05-gate-system/README.md
+    depends_on: [REN-STUDY-README, REN-ROAD-184]
+  - id: REN-GATE-SYLLABUS
+    path: 01-operation-renaissance/05-gate-system/syllabus-map.md
+    depends_on: [REN-STUDY-CURRICULUM]
+  - id: REN-GATE-SEQUENCE
+    path: 01-operation-renaissance/05-gate-system/subject-sequencing.md
+    depends_on: [REN-GATE-SYLLABUS, REN-STUDY-MASTERY]
+  - id: REN-GATE-DIAGNOSTICS
+    path: 01-operation-renaissance/05-gate-system/diagnostic-tests.md
+    depends_on: [REN-GATE-SYLLABUS, REN-STUDY-ASSESSMENT]
+  - id: REN-GATE-CONCEPT
+    path: 01-operation-renaissance/05-gate-system/concept-cycle.md
+    depends_on: [REN-GATE-DIAGNOSTICS, REN-STUDY-CYCLE]
+  - id: REN-GATE-PROBLEM
+    path: 01-operation-renaissance/05-gate-system/problem-practice-cycle.md
+    depends_on: [REN-GATE-CONCEPT, REN-STUDY-PROBLEM-SOLVING]
+  - id: REN-GATE-PYQ
+    path: 01-operation-renaissance/05-gate-system/previous-year-questions.md
+    depends_on: [REN-GATE-SYLLABUS, REN-GATE-PROBLEM]
+  - id: REN-GATE-MOCKS
+    path: 01-operation-renaissance/05-gate-system/mock-test-system.md
+    depends_on: [REN-GATE-PROBLEM, REN-GATE-PYQ]
+  - id: REN-GATE-REVISION
+    path: 01-operation-renaissance/05-gate-system/revision-system.md
+    depends_on: [REN-STUDY-SPACED, REN-GATE-CONCEPT]
+  - id: REN-GATE-ERRORS
+    path: 01-operation-renaissance/05-gate-system/error-taxonomy.md
+    depends_on: [REN-STUDY-ERROR-LOG, REN-GATE-PROBLEM]
+  - id: REN-GATE-SCORE
+    path: 01-operation-renaissance/05-gate-system/score-analysis.md
+    depends_on: [REN-GATE-MOCKS, REN-GATE-REVISION, REN-GATE-ERRORS]
+  - id: REN-PLACE-README
+    path: 01-operation-renaissance/06-placement-system/README.md
+    depends_on: [REN-STUDY-README, REN-EXEC-README]
+  - id: REN-PLACE-ROLE
+    path: 01-operation-renaissance/06-placement-system/role-targeting.md
+    depends_on: [REN-CHARTER-CONSTRAINTS, REN-CHARTER-OBJECTIVES]
+  - id: REN-PLACE-COMPETENCY
+    path: 01-operation-renaissance/06-placement-system/competency-matrix.md
+    depends_on: [REN-PLACE-ROLE, REN-STUDY-MASTERY]
+  - id: REN-PLACE-RESUME
+    path: 01-operation-renaissance/06-placement-system/resume-system.md
+    depends_on: [REN-PLACE-COMPETENCY, REN-PROJ-PORTFOLIO]
+  - id: REN-PLACE-PIPELINE
+    path: 01-operation-renaissance/06-placement-system/application-pipeline.md
+    depends_on: [REN-PLACE-ROLE, REN-PLACE-RESUME]
+  - id: REN-PLACE-APTITUDE
+    path: 01-operation-renaissance/06-placement-system/aptitude-plan.md
+    depends_on: [REN-STUDY-ASSESSMENT]
+  - id: REN-PLACE-CODING
+    path: 01-operation-renaissance/06-placement-system/coding-plan.md
+    depends_on: [REN-STUDY-PROBLEM-SOLVING]
+  - id: REN-PLACE-CORE-ECE
+    path: 01-operation-renaissance/06-placement-system/core-ece-interviews.md
+    depends_on: [REN-PLACE-COMPETENCY, REN-STUDY-MASTERY]
+  - id: REN-PLACE-BEHAVIORAL
+    path: 01-operation-renaissance/06-placement-system/behavioral-interviews.md
+    depends_on: [REN-PROJ-POSTMORTEM]
+  - id: REN-PLACE-MOCKS
+    path: 01-operation-renaissance/06-placement-system/mock-interviews.md
+    depends_on: [REN-PLACE-CORE-ECE, REN-PLACE-BEHAVIORAL, REN-PLACE-CODING]
+  - id: REN-PLACE-OFFER
+    path: 01-operation-renaissance/06-placement-system/offer-evaluation.md
+    depends_on: [REN-PLACE-ROLE, REN-CHARTER-CONSTRAINTS]
+  - id: REN-PROJ-README
+    path: 01-operation-renaissance/07-project-system/README.md
+    depends_on: [REN-EXEC-WIP, REN-STUDY-README]
+  - id: REN-PROJ-PORTFOLIO
+    path: 01-operation-renaissance/07-project-system/portfolio-strategy.md
+    depends_on: [REN-PROJ-LIFECYCLE, REN-PROJ-DOC-DEMO]
+  - id: REN-PROJ-SELECTION
+    path: 01-operation-renaissance/07-project-system/project-selection.md
+    depends_on: [REN-PROJ-README, REN-ROAD-CAPACITY]
+  - id: REN-PROJ-LIFECYCLE
+    path: 01-operation-renaissance/07-project-system/project-lifecycle.md
+    depends_on: [REN-PROJ-SELECTION, REN-PROJ-SCOPE]
+  - id: REN-PROJ-SCOPE
+    path: 01-operation-renaissance/07-project-system/scope-control.md
+    depends_on: [REN-PROJ-SELECTION]
+  - id: REN-PROJ-REQ-TEST
+    path: 01-operation-renaissance/07-project-system/requirements-and-tests.md
+    depends_on: [REN-PROJ-SCOPE]
+  - id: REN-PROJ-NOTEBOOK
+    path: 01-operation-renaissance/07-project-system/engineering-notebook.md
+    depends_on: [REN-PROJ-REQ-TEST]
+  - id: REN-PROJ-DOC-DEMO
+    path: 01-operation-renaissance/07-project-system/documentation-and-demo.md
+    depends_on: [REN-PROJ-REQ-TEST, REN-PROJ-NOTEBOOK]
+  - id: REN-PROJ-REVIEWS
+    path: 01-operation-renaissance/07-project-system/review-gates.md
+    depends_on: [REN-PROJ-LIFECYCLE, REN-PROJ-REQ-TEST]
+  - id: REN-PROJ-POSTMORTEM
+    path: 01-operation-renaissance/07-project-system/postmortem.md
+    depends_on: [REN-PROJ-REVIEWS, REN-PROJ-DOC-DEMO]
+  - id: REN-RES-README
+    path: 01-operation-renaissance/08-research-system/README.md
+    depends_on: [REN-STUDY-README, REN-PROJ-README]
+  - id: REN-RES-READINESS
+    path: 01-operation-renaissance/08-research-system/research-readiness.md
+    depends_on: [REN-RES-README, REN-CHARTER-CONSTRAINTS]
+  - id: REN-RES-LITERATURE
+    path: 01-operation-renaissance/08-research-system/literature-search.md
+    depends_on: [REN-RES-READINESS]
+  - id: REN-RES-PAPER
+    path: 01-operation-renaissance/08-research-system/paper-reading.md
+    depends_on: [REN-RES-LITERATURE]
+  - id: REN-RES-QUESTION
+    path: 01-operation-renaissance/08-research-system/question-formulation.md
+    depends_on: [REN-RES-LITERATURE, REN-RES-PAPER]
+  - id: REN-RES-EXPERIMENT
+    path: 01-operation-renaissance/08-research-system/experiment-design.md
+    depends_on: [REN-RES-QUESTION, REN-RES-READINESS]
+  - id: REN-RES-REPRO
+    path: 01-operation-renaissance/08-research-system/reproducibility.md
+    depends_on: [REN-RES-EXPERIMENT, REN-PROJ-DOC-DEMO]
+  - id: REN-RES-NOTEBOOK
+    path: 01-operation-renaissance/08-research-system/research-notebook.md
+    depends_on: [REN-RES-EXPERIMENT]
+  - id: REN-RES-ADVISOR
+    path: 01-operation-renaissance/08-research-system/advisor-communication.md
+    depends_on: [REN-RES-READINESS, REN-COMM-CORRESPONDENCE]
+  - id: REN-COMM-README
+    path: 01-operation-renaissance/09-communication-system/README.md
+    depends_on: [REN-CHARTER-IDENTITY-CONTRACT, REN-STUDY-README]
+  - id: REN-COMM-WRITING
+    path: 01-operation-renaissance/09-communication-system/technical-writing.md
+    depends_on: [REN-COMM-README, REN-PROJ-REQ-TEST]
+  - id: REN-COMM-SPEAKING
+    path: 01-operation-renaissance/09-communication-system/speaking-practice.md
+    depends_on: [REN-COMM-README]
+  - id: REN-COMM-DESIGN-REVIEW
+    path: 01-operation-renaissance/09-communication-system/design-review.md
+    depends_on: [REN-COMM-WRITING, REN-PROJ-REVIEWS]
+  - id: REN-COMM-PRESENTATION
+    path: 01-operation-renaissance/09-communication-system/presentation-practice.md
+    depends_on: [REN-COMM-SPEAKING, REN-COMM-WRITING]
+  - id: REN-COMM-CORRESPONDENCE
+    path: 01-operation-renaissance/09-communication-system/professional-correspondence.md
+    depends_on: [REN-COMM-README]
+  - id: REN-COMM-RUBRIC
+    path: 01-operation-renaissance/09-communication-system/communication-rubric.md
+    depends_on: [REN-COMM-WRITING, REN-COMM-PRESENTATION]
+  - id: REN-HEALTH-README
+    path: 01-operation-renaissance/10-health-system/README.md
+    depends_on: [REN-CHARTER-CONSTRAINTS, REN-EXEC-WIP]
+  - id: REN-HEALTH-SAFETY
+    path: 01-operation-renaissance/10-health-system/scope-and-safety.md
+    depends_on: [REN-HEALTH-README]
+  - id: REN-HEALTH-SLEEP
+    path: 01-operation-renaissance/10-health-system/sleep-protocol.md
+    depends_on: [REN-HEALTH-SAFETY]
+  - id: REN-HEALTH-ACTIVITY
+    path: 01-operation-renaissance/10-health-system/physical-activity.md
+    depends_on: [REN-HEALTH-SAFETY]
+  - id: REN-HEALTH-NUTRITION
+    path: 01-operation-renaissance/10-health-system/nutrition-basics.md
+    depends_on: [REN-HEALTH-SAFETY]
+  - id: REN-HEALTH-ERGONOMICS
+    path: 01-operation-renaissance/10-health-system/ergonomics.md
+    depends_on: [REN-HEALTH-SAFETY]
+  - id: REN-HEALTH-FATIGUE
+    path: 01-operation-renaissance/10-health-system/fatigue-monitoring.md
+    depends_on: [REN-HEALTH-SAFETY, REN-HEALTH-SLEEP]
+  - id: REN-HEALTH-ESCALATION
+    path: 01-operation-renaissance/10-health-system/escalation-boundaries.md
+    depends_on: [REN-HEALTH-SAFETY, REN-HEALTH-FATIGUE]
+  - id: REN-RESIL-README
+    path: 01-operation-renaissance/11-resilience-system/README.md
+    depends_on: [REN-HEALTH-README, REN-EXEC-WIP]
+  - id: REN-RESIL-SAFETY
+    path: 01-operation-renaissance/11-resilience-system/scope-and-safety.md
+    depends_on: [REN-RESIL-README, REN-HEALTH-ESCALATION]
+  - id: REN-RESIL-STRESS
+    path: 01-operation-renaissance/11-resilience-system/stress-observation.md
+    depends_on: [REN-RESIL-SAFETY]
+  - id: REN-RESIL-REGULATION
+    path: 01-operation-renaissance/11-resilience-system/emotional-regulation-toolkit.md
+    depends_on: [REN-RESIL-SAFETY, REN-RESIL-STRESS]
+  - id: REN-RESIL-SUPPORT
+    path: 01-operation-renaissance/11-resilience-system/support-network.md
+    depends_on: [REN-RESIL-SAFETY]
+  - id: REN-RESIL-SETBACK
+    path: 01-operation-renaissance/11-resilience-system/setback-review.md
+    depends_on: [REN-RESIL-STRESS, REN-RESIL-REGULATION]
+  - id: REN-RESIL-PRO-HELP
+    path: 01-operation-renaissance/11-resilience-system/professional-help-boundaries.md
+    depends_on: [REN-RESIL-SAFETY, REN-RESIL-SUPPORT, REN-HEALTH-ESCALATION]
+  - id: REN-FIN-README
+    path: 01-operation-renaissance/12-finance-system/README.md
+    depends_on: [REN-CHARTER-CONSTRAINTS, REN-EXEC-MONTHLY]
+  - id: REN-FIN-SCOPE
+    path: 01-operation-renaissance/12-finance-system/scope-and-disclaimer.md
+    depends_on: [REN-FIN-README]
+  - id: REN-FIN-CASH
+    path: 01-operation-renaissance/12-finance-system/cash-flow-basics.md
+    depends_on: [REN-FIN-SCOPE]
+  - id: REN-FIN-BUFFER
+    path: 01-operation-renaissance/12-finance-system/emergency-buffer.md
+    depends_on: [REN-FIN-SCOPE, REN-FIN-CASH]
+  - id: REN-FIN-DEBT
+    path: 01-operation-renaissance/12-finance-system/debt-and-credit.md
+    depends_on: [REN-FIN-SCOPE, REN-FIN-CASH]
+  - id: REN-FIN-INSURANCE
+    path: 01-operation-renaissance/12-finance-system/insurance-basics.md
+    depends_on: [REN-FIN-SCOPE]
+  - id: REN-FIN-INVEST
+    path: 01-operation-renaissance/12-finance-system/investing-foundations.md
+    depends_on: [REN-FIN-SCOPE, REN-FIN-BUFFER, REN-FIN-DEBT]
+  - id: REN-FIN-FRAUD
+    path: 01-operation-renaissance/12-finance-system/fraud-and-risk.md
+    depends_on: [REN-FIN-SCOPE]
+  - id: REN-REV-README
+    path: 01-operation-renaissance/13-review-system/README.md
+    depends_on: [REN-EXEC-MONTHLY, REN-ROAD-MILESTONES]
+  - id: REN-REV-DAILY
+    path: 01-operation-renaissance/13-review-system/daily-close.md
+    depends_on: [REN-REV-README, REN-EXEC-DAILY]
+  - id: REN-REV-WEEKLY
+    path: 01-operation-renaissance/13-review-system/weekly-review.md
+    depends_on: [REN-REV-DAILY, REN-EXEC-WEEKLY]
+  - id: REN-REV-MONTHLY
+    path: 01-operation-renaissance/13-review-system/monthly-review.md
+    depends_on: [REN-REV-WEEKLY, REN-EXEC-MONTHLY]
+  - id: REN-REV-PHASE
+    path: 01-operation-renaissance/13-review-system/phase-gate-review.md
+    depends_on: [REN-REV-MONTHLY, REN-ROAD-MILESTONES]
+  - id: REN-REV-MID
+    path: 01-operation-renaissance/13-review-system/mid-campaign-review.md
+    depends_on: [REN-REV-PHASE, REN-ROAD-CAPACITY]
+  - id: REN-REV-FINAL
+    path: 01-operation-renaissance/13-review-system/final-review.md
+    depends_on: [REN-REV-PHASE, REN-REV-MID]
+  - id: REN-REV-AAR
+    path: 01-operation-renaissance/13-review-system/after-action-review.md
+    depends_on: [REN-REV-README]
+  - id: REN-REC-README
+    path: 01-operation-renaissance/14-recovery-system/README.md
+    depends_on: [REN-REV-README, REN-HEALTH-ESCALATION, REN-RESIL-PRO-HELP]
+  - id: REN-REC-CLASSIFY
+    path: 01-operation-renaissance/14-recovery-system/failure-classification.md
+    depends_on: [REN-REC-README, REN-REV-AAR]
+  - id: REN-REC-DAY
+    path: 01-operation-renaissance/14-recovery-system/missed-day-recovery.md
+    depends_on: [REN-REC-CLASSIFY, REN-EXEC-DAILY, REN-REV-DAILY]
+  - id: REN-REC-WEEK
+    path: 01-operation-renaissance/14-recovery-system/missed-week-recovery.md
+    depends_on: [REN-REC-CLASSIFY, REN-EXEC-WEEKLY, REN-REV-WEEKLY]
+  - id: REN-REC-ILLNESS
+    path: 01-operation-renaissance/14-recovery-system/illness-and-emergency.md
+    depends_on: [REN-REC-CLASSIFY, REN-HEALTH-ESCALATION, REN-RESIL-PRO-HELP]
+  - id: REN-REC-OVERLOAD
+    path: 01-operation-renaissance/14-recovery-system/overload-recovery.md
+    depends_on: [REN-REC-CLASSIFY, REN-HEALTH-FATIGUE, REN-RESIL-STRESS]
+  - id: REN-REC-ACADEMIC
+    path: 01-operation-renaissance/14-recovery-system/academic-crisis.md
+    depends_on: [REN-REC-CLASSIFY, REN-STUDY-ASSESSMENT, REN-REV-PHASE]
+  - id: REN-REC-PROJECT
+    path: 01-operation-renaissance/14-recovery-system/project-failure.md
+    depends_on: [REN-REC-CLASSIFY, REN-PROJ-POSTMORTEM, REN-REV-AAR]
+  - id: REN-REC-RESTART
+    path: 01-operation-renaissance/14-recovery-system/restart-protocol.md
+    depends_on: [REN-REC-DAY, REN-REC-WEEK, REN-REC-ILLNESS, REN-REC-OVERLOAD, REN-REC-ACADEMIC, REN-REC-PROJECT]
+  - id: REN-KPI-README
+    path: 01-operation-renaissance/16-kpis/README.md
+    depends_on: [REN-CHARTER-OBJECTIVES, REN-REV-README]
+  - id: REN-KPI-MODEL
+    path: 01-operation-renaissance/16-kpis/measurement-model.md
+    depends_on: [REN-KPI-README, REN-CHARTER-CONTROLLABLES]
+  - id: REN-KPI-LEADING
+    path: 01-operation-renaissance/16-kpis/leading-indicators.md
+    depends_on: [REN-KPI-MODEL]
+  - id: REN-KPI-LAGGING
+    path: 01-operation-renaissance/16-kpis/lagging-indicators.md
+    depends_on: [REN-KPI-MODEL]
+  - id: REN-KPI-GUARDRAIL
+    path: 01-operation-renaissance/16-kpis/guardrail-metrics.md
+    depends_on: [REN-KPI-MODEL, REN-HEALTH-SAFETY, REN-FIN-SCOPE]
+  - id: REN-KPI-DICTIONARY
+    path: 01-operation-renaissance/16-kpis/metric-dictionary.md
+    depends_on: [REN-KPI-MODEL, REN-KPI-LEADING, REN-KPI-LAGGING, REN-KPI-GUARDRAIL]
+  - id: REN-KPI-ANTI-GAMING
+    path: 01-operation-renaissance/16-kpis/anti-gaming-rules.md
+    depends_on: [REN-KPI-DICTIONARY]
+  - id: REN-DASH-README
+    path: 01-operation-renaissance/15-dashboards/README.md
+    depends_on: [REN-KPI-DICTIONARY, REN-REV-README]
+  - id: REN-DASH-COMMAND
+    path: 01-operation-renaissance/15-dashboards/command-center.md
+    depends_on: [REN-DASH-README, REN-KPI-ANTI-GAMING]
+  - id: REN-DASH-TODAY
+    path: 01-operation-renaissance/15-dashboards/today.md
+    depends_on: [REN-DASH-README, REN-EXEC-DAILY, REN-REV-DAILY]
+  - id: REN-DASH-WEEK
+    path: 01-operation-renaissance/15-dashboards/this-week.md
+    depends_on: [REN-DASH-README, REN-EXEC-WEEKLY, REN-REV-WEEKLY]
+  - id: REN-DASH-CAMPAIGN
+    path: 01-operation-renaissance/15-dashboards/campaign-status.md
+    depends_on: [REN-DASH-README, REN-REV-MONTHLY, REN-REV-PHASE]
+  - id: REN-DASH-GATE
+    path: 01-operation-renaissance/15-dashboards/gate-dashboard.md
+    depends_on: [REN-DASH-README, REN-GATE-SCORE]
+  - id: REN-DASH-PLACEMENT
+    path: 01-operation-renaissance/15-dashboards/placement-dashboard.md
+    depends_on: [REN-DASH-README, REN-PLACE-PIPELINE]
+  - id: REN-DASH-PROJECT
+    path: 01-operation-renaissance/15-dashboards/project-dashboard.md
+    depends_on: [REN-DASH-README, REN-PROJ-REVIEWS]
+  - id: REN-DASH-LEARNING
+    path: 01-operation-renaissance/15-dashboards/learning-dashboard.md
+    depends_on: [REN-DASH-README, REN-STUDY-ASSESSMENT]
+  - id: REN-DASH-HEALTH
+    path: 01-operation-renaissance/15-dashboards/health-capacity-dashboard.md
+    depends_on: [REN-DASH-README, REN-HEALTH-FATIGUE, REN-KPI-GUARDRAIL]
+  - id: REN-DASH-RISK
+    path: 01-operation-renaissance/15-dashboards/risk-dashboard.md
+    depends_on: [REN-DASH-README, REN-REC-README, REN-FIN-README]
+  - id: REN-APP-README
+    path: 01-operation-renaissance/17-appendices/README.md
+    depends_on: [REN-DASH-README, REN-KPI-README, REN-REC-README]
+  - id: REN-APP-CALENDAR
+    path: 01-operation-renaissance/17-appendices/calendar-map.md
+    depends_on: [REN-APP-README, REN-ROAD-184, REN-ROAD-MILESTONES]
+  - id: REN-APP-WORKLOAD
+    path: 01-operation-renaissance/17-appendices/workload-scenarios.md
+    depends_on: [REN-APP-README, REN-ROAD-CAPACITY, REN-REC-CLASSIFY]
+  - id: REN-APP-TOOLS
+    path: 01-operation-renaissance/17-appendices/tool-options.md
+    depends_on: [REN-APP-README]
+  - id: REN-APP-TROUBLESHOOTING
+    path: 01-operation-renaissance/17-appendices/troubleshooting.md
+    depends_on: [REN-APP-README, REN-REC-README]
+  - id: REN-APP-GLOSSARY
+    path: 01-operation-renaissance/17-appendices/campaign-glossary.md
+    depends_on: [REN-APP-README, REN-KPI-MODEL]

@@ -1,0 +1,119 @@
+{
+  "checks": [
+    {
+      "issues": [],
+      "metrics": {
+        "required_paths": 12
+      },
+      "name": "tree",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "files": 1080,
+        "unique_ids": 1080
+      },
+      "name": "frontmatter",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "files": 1080,
+        "tables": 275
+      },
+      "name": "markdown",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "internal_links": 3887
+      },
+      "name": "links",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "diagrams": 159
+      },
+      "name": "mermaid",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "files": 24
+      },
+      "name": "yaml",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "files": 18
+      },
+      "name": "json",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "records": 158
+      },
+      "name": "dependencies",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "referenced": 23,
+        "registered": 24
+      },
+      "name": "sources",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "operation_files": 174,
+        "orphans": 0
+      },
+      "name": "navigation",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "duplicate_content_groups": 0,
+        "duplicate_ids": 0
+      },
+      "name": "duplicates",
+      "passed": true
+    }
+  ],
+  "generated_at": "2026-07-23T09:13:28.614154+00:00",
+  "statistics": {
+    "approved_or_released": 201,
+    "completion_percentage": 18.61,
+    "decision_trees": 149,
+    "generated_at": "2026-07-23T09:13:28.521159+00:00",
+    "markdown_files": 1080,
+    "markdown_links": 3887,
+    "mermaid_diagrams": 159,
+    "planned": 850,
+    "readme_files": 494,
+    "tables": 275,
+    "word_count": 217416
+  },
+  "status": "healthy",
+  "trend_from_previous_generation": {
+    "markdown_files": 1,
+    "markdown_links": 22,
+    "mermaid_diagrams": 0,
+    "tables": 1,
+    "word_count": 1467
+  }
+}

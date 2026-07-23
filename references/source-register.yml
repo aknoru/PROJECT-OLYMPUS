@@ -1,0 +1,291 @@
+schema_version: 0.1.0
+status: active
+kind: source-register
+items:
+  - id: SRC-NASA-SE-2016
+    title: NASA Systems Engineering Handbook
+    authors:
+      - National Aeronautics and Space Administration
+    year: 2016
+    version: NASA/SP-2016-6105 Rev 2
+    evidence_tier: A
+    url: https://www.nasa.gov/reference/systems-engineering-handbook/
+    supports:
+      - requirements and constraints
+      - verification
+      - lifecycle reviews
+      - risk and configuration management
+    accessed: 2026-07-23
+  - id: SRC-ERICSSON-1993
+    title: The Role of Deliberate Practice in the Acquisition of Expert Performance
+    authors:
+      - K. Anders Ericsson
+      - Ralf T. Krampe
+      - Clemens Tesch-Römer
+    year: 1993
+    evidence_tier: B
+    doi: 10.1037/0033-295X.100.3.363
+    supports:
+      - effortful practice
+      - feedback-directed skill improvement
+    accessed: 2026-07-23
+  - id: SRC-ROEDIGER-KARPICKE-2006
+    title: Test-Enhanced Learning
+    authors:
+      - Henry L. Roediger III
+      - Jeffrey D. Karpicke
+    year: 2006
+    evidence_tier: B
+    doi: 10.1111/j.1467-9280.2006.01693.x
+    supports:
+      - retrieval practice
+      - delayed retention assessment
+    accessed: 2026-07-23
+  - id: SRC-CEPEDA-2006
+    title: "Distributed Practice in Verbal Recall Tasks: A Review and Quantitative Synthesis"
+    authors:
+      - Nicholas J. Cepeda
+      - Harold Pashler
+      - Edward Vul
+      - John T. Wixted
+      - Doug Rohrer
+    year: 2006
+    evidence_tier: A
+    doi: 10.1037/0033-2909.132.3.354
+    supports:
+      - distributed practice
+      - spacing and retention intervals
+    accessed: 2026-07-23
+  - id: SRC-GOLLWITZER-1999
+    title: "Implementation Intentions: Strong Effects of Simple Plans"
+    authors:
+      - Peter M. Gollwitzer
+    year: 1999
+    evidence_tier: B
+    doi: 10.1037/0003-066X.54.7.493
+    supports:
+      - situation-linked action plans
+      - goal-directed initiation
+    accessed: 2026-07-23
+  - id: SRC-LITTLE-1961
+    title: "A Proof for the Queuing Formula: L = λW"
+    authors:
+      - John D. C. Little
+    year: 1961
+    evidence_tier: B
+    doi: 10.1287/opre.9.3.383
+    supports:
+      - work-in-progress flow relationships
+      - cycle-time reasoning
+    accessed: 2026-07-23
+  - id: SRC-RUBINSTEIN-2001
+    title: Executive Control of Cognitive Processes in Task Switching
+    authors:
+      - Joshua S. Rubinstein
+      - David E. Meyer
+      - Jeffrey E. Evans
+    year: 2001
+    evidence_tier: B
+    doi: 10.1037/0096-1523.27.4.763
+    supports:
+      - task-switching overhead
+      - executive control of task transitions
+    accessed: 2026-07-23
+  - id: SRC-DUNLOSKY-2013
+    title: "Improving Students' Learning With Effective Learning Techniques"
+    authors:
+      - John Dunlosky
+      - Katherine A. Rawson
+      - Elizabeth J. Marsh
+      - Mitchell J. Nathan
+      - Daniel T. Willingham
+    year: 2013
+    evidence_tier: A
+    doi: 10.1177/1529100612453266
+    supports:
+      - practice testing
+      - distributed practice
+      - comparative utility of learning techniques
+    accessed: 2026-07-23
+  - id: SRC-FREEMAN-2014
+    title: Active Learning Increases Student Performance in Science, Engineering, and Mathematics
+    authors:
+      - Scott Freeman
+      - Sarah L. Eddy
+      - Miles McDonough
+      - Michelle K. Smith
+      - Nnadozie Okoroafor
+      - Hannah Jordt
+      - Mary Pat Wenderoth
+    year: 2014
+    evidence_tier: A
+    doi: 10.1073/pnas.1319030111
+    supports:
+      - active learning in undergraduate STEM
+      - engineering education practice
+    accessed: 2026-07-23
+  - id: SRC-TAYLOR-ROHRER-2010
+    title: The Effects of Interleaved Practice
+    authors:
+      - Kelli Taylor
+      - Doug Rohrer
+    year: 2010
+    evidence_tier: B
+    doi: 10.1002/acp.1598
+    supports:
+      - interleaved mathematics practice
+      - discrimination between problem types
+    accessed: 2026-07-23
+  - id: SRC-ISO-29148-2018
+    title: "ISO/IEC/IEEE 29148:2018 Systems and Software Engineering — Requirements Engineering"
+    authors:
+      - International Organization for Standardization
+      - International Electrotechnical Commission
+      - Institute of Electrical and Electronics Engineers
+    year: 2018
+    evidence_tier: A
+    identifier: ISO/IEC/IEEE 29148:2018
+    url: https://www.iso.org/standard/72089.html
+    supports:
+      - requirements-engineering processes
+      - requirement information items
+      - requirement quality and traceability
+    accessed: 2026-07-23
+  - id: SRC-CAMPION-1997
+    title: A Review of Structure in the Selection Interview
+    authors:
+      - Michael A. Campion
+      - David K. Palmer
+      - James E. Campion
+    year: 1997
+    evidence_tier: A
+    doi: 10.1111/j.1744-6570.1997.tb00709.x
+    supports:
+      - structured interview design
+      - standardized interview evaluation
+    accessed: 2026-07-23
+  - id: SRC-GITHUB-FLOW
+    title: Git Workflows
+    authors:
+      - GitHub
+    year: 2026
+    evidence_tier: C
+    url: https://docs.github.com/en/get-started/git-basics/git-workflows
+    supports:
+      - branch-based Git workflow
+      - reviewed change integration
+    accessed: 2026-07-23
+  - id: SRC-NASEM-2019
+    title: Reproducibility and Replicability in Science
+    authors:
+      - National Academies of Sciences, Engineering, and Medicine
+    year: 2019
+    evidence_tier: A
+    doi: 10.17226/25303
+    url: https://nap.nationalacademies.org/catalog/25303/reproducibility-and-replicability-in-science
+    supports:
+      - reproducibility terminology
+      - research transparency
+      - computational and empirical evidence practices
+    accessed: 2026-07-23
+  - id: SRC-FAIR-2016
+    title: The FAIR Guiding Principles for Scientific Data Management and Stewardship
+    authors:
+      - Mark D. Wilkinson
+      - Michel Dumontier
+      - IJsbrand Jan Aalbersberg
+      - Gabrielle Appleton
+      - Myles Axton
+      - FAIR Principles authors
+    year: 2016
+    evidence_tier: B
+    doi: 10.1038/sdata.2016.18
+    supports:
+      - findable research objects
+      - accessible metadata
+      - interoperable data
+      - reusable data and workflows
+    accessed: 2026-07-23
+  - id: SRC-PRISMA-2020
+    title: "The PRISMA 2020 Statement: An Updated Guideline for Reporting Systematic Reviews"
+    authors:
+      - Matthew J. Page
+      - Joanne E. McKenzie
+      - Patrick M. Bossuyt
+      - Isabelle Boutron
+      - Tammy C. Hoffmann
+      - PRISMA 2020 authors
+    year: 2021
+    evidence_tier: A
+    doi: 10.1186/s13643-021-01626-4
+    supports:
+      - transparent systematic-review reporting
+      - search and selection reporting
+      - synthesis limitations
+    accessed: 2026-07-23
+  - id: SRC-WHO-ACTIVITY-2020
+    title: WHO Guidelines on Physical Activity and Sedentary Behaviour
+    authors: [World Health Organization]
+    year: 2020
+    evidence_tier: A
+    url: https://www.who.int/publications/i/item/9789240015128
+    supports: [general physical-activity guidance, sedentary-behaviour guidance]
+    accessed: 2026-07-23
+  - id: SRC-WHO-DIET-2026
+    title: Healthy Diet
+    authors: [World Health Organization]
+    year: 2026
+    evidence_tier: C
+    url: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
+    supports: [general healthy-diet principles, food-safety and hydration context]
+    accessed: 2026-07-23
+  - id: SRC-CDC-SLEEP
+    title: About Sleep
+    authors: [Centers for Disease Control and Prevention]
+    year: 2026
+    evidence_tier: C
+    url: https://www.cdc.gov/sleep/about/index.html
+    supports: [general sleep-health principles, professional escalation for persistent sleep concerns]
+    accessed: 2026-07-23
+  - id: SRC-WHO-STRESS-2020
+    title: Doing What Matters in Times of Stress
+    authors: [World Health Organization]
+    year: 2020
+    evidence_tier: A
+    url: https://www.who.int/publications/i/item/9789240003927
+    supports: [general stress-management skills, support-seeking and grounding practices]
+    accessed: 2026-07-23
+  - id: SRC-OECD-PISA-FIN-2022
+    title: PISA 2022 Financial Literacy Framework
+    authors: [Organisation for Economic Co-operation and Development]
+    year: 2023
+    evidence_tier: A
+    doi: 10.1787/dfe0bf9c-en
+    url: https://www.oecd.org/en/publications/pisa-2022-assessment-and-analytical-framework_dfe0bf9c-en/full-report/component-4.html
+    supports: [money and transactions, planning and managing finances, risk and reward, financial landscape]
+    accessed: 2026-07-23
+  - id: SRC-INVESTOR-RISK
+    title: What Is Risk
+    authors: [U.S. Securities and Exchange Commission]
+    year: 2026
+    evidence_tier: C
+    url: https://www.investor.gov/introduction-investing/investing-basics/what-risk
+    supports: [investment uncertainty, potential financial loss, risk awareness]
+    accessed: 2026-07-23
+  - id: SRC-FTC-CONSUMER
+    title: Consumer Advice
+    authors: [U.S. Federal Trade Commission]
+    year: 2026
+    evidence_tier: C
+    url: https://consumer.ftc.gov/
+    supports: [fraud awareness, independent verification, incident reporting awareness]
+    accessed: 2026-07-23
+  - id: SRC-ISO-9001-2015
+    title: "ISO 9001:2015 Quality Management Systems — Requirements"
+    authors: [International Organization for Standardization]
+    year: 2015
+    evidence_tier: A
+    identifier: ISO 9001:2015
+    url: https://www.iso.org/standard/62085.html
+    supports: [continual improvement, evidence-based process review, corrective action]
+    accessed: 2026-07-23

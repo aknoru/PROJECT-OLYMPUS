@@ -1,0 +1,35 @@
+name: Content or validation defect
+description: Report an incorrect, broken, unsafe, or inconsistent repository artifact.
+title: "[defect] "
+labels: [defect]
+body:
+  - type: input
+    id: path
+    attributes:
+      label: Canonical path
+      placeholder: path/to/file.md
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and validation output
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety and privacy
+      options:
+        - label: I removed secrets and personal data.
+          required: true

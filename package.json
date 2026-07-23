@@ -1,0 +1,19 @@
+{
+  "name": "project-olympus",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Validation and documentation tooling for Project Olympus",
+  "scripts": {
+    "lint:markdown": "markdownlint-cli2 \"**/*.md\" \"#site/**\"",
+    "validate:mermaid": "python scripts/validate_mermaid.py",
+    "validate": "python scripts/validate_repository.py",
+    "test": "python -m unittest discover -s tests -p \"test_*.py\""
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^11.4.0",
+    "markdownlint-cli2": "^0.18.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

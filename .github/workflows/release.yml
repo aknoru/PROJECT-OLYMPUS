@@ -1,0 +1,32 @@
+name: Release package
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python scripts/release_check.py
+      - run: python scripts/generate_statistics.py
+      - run: python scripts/repository_health.py
+      - run: python scripts/build_catalog.py
+      - run: python scripts/build_dependency_graph.py
+      - run: mkdocs build --clean
+      - run: python -m zipfile -c project-olympus-${{ github.ref_name }}.zip README.md MASTER_ARCHITECTURE.md CHANGELOG.md VERSION docs site data/generated
+      - uses: actions/upload-artifact@v4
+        with:
+          name: project-olympus-${{ github.ref_name }}
+          path: project-olympus-${{ github.ref_name }}.zip

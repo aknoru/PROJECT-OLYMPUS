@@ -1,0 +1,13 @@
+schema_version: 1.0.0
+status: active
+kind: privacy
+public_repository:
+  synthetic_examples_only: true
+  secrets_prohibited: true
+  personal_observations_prohibited: true
+private_paths:
+  - private/data
+  - private/logs
+  - private/reviews
+  - private/sensitive
+redaction_required_before_export: true

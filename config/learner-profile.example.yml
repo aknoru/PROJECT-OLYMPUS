@@ -1,0 +1,11 @@
+schema_version: 1.0.0
+status: example
+kind: learner-profile
+classification: synthetic
+profile:
+  id: SYNTHETIC-LEARNER
+  timezone: UTC
+  weekly_capacity_blocks: 12
+  constraints: [academic-calendar, recovery-buffer]
+privacy:
+  contains_personal_data: false

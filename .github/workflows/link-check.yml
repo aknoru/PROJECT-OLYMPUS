@@ -1,0 +1,28 @@
+name: Link and reference validation
+
+on:
+  push:
+    paths:
+      - "**/*.md"
+      - "references/**"
+      - "data/registries/**"
+      - "scripts/**"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  internal-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/validate_links.py
+      - run: python scripts/check_cross_references.py
+      - run: python scripts/verify_navigation.py
+      - run: python scripts/verify_dependency_registry.py
+      - run: python scripts/verify_source_registry.py

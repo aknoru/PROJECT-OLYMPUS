@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://project-olympus.local/schemas/reference.schema.json",
+  "title": "reference.schema.json",
+  "description": "Placeholder schema; fields will be implemented in a later prompt.",
+  "type": "object",
+  "additionalProperties": true
+}

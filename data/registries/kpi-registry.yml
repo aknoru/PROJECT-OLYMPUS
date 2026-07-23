@@ -1,0 +1,11 @@
+schema_version: 0.1.0
+status: active
+kind: kpi-registry
+items: []
+policy:
+  definitions_required_before_observation: true
+  thresholds_are_configurable: true
+  missing_data_status: insufficient-data
+  observations_are_private_by_default: true
+  dashboard_writeback_prohibited: true
+  guaranteed_outcomes_prohibited: true

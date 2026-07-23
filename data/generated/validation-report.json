@@ -1,0 +1,97 @@
+{
+  "checks": [
+    {
+      "issues": [],
+      "metrics": {
+        "required_paths": 12
+      },
+      "name": "tree",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "files": 1079,
+        "unique_ids": 1079
+      },
+      "name": "frontmatter",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "files": 1079,
+        "tables": 273
+      },
+      "name": "markdown",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "internal_links": 3770
+      },
+      "name": "links",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "diagrams": 159
+      },
+      "name": "mermaid",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "files": 24
+      },
+      "name": "yaml",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "files": 18
+      },
+      "name": "json",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "records": 158
+      },
+      "name": "dependencies",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "referenced": 23,
+        "registered": 24
+      },
+      "name": "sources",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "operation_files": 174,
+        "orphans": 0
+      },
+      "name": "navigation",
+      "passed": true
+    },
+    {
+      "issues": [],
+      "metrics": {
+        "duplicate_content_groups": 0,
+        "duplicate_ids": 0
+      },
+      "name": "duplicates",
+      "passed": true
+    }
+  ]
+}

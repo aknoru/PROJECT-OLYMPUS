@@ -1,0 +1,8 @@
+# Replace the maintainer handle during repository hosting configuration.
+* @project-maintainer
+
+/MASTER_ARCHITECTURE.md @project-maintainer
+/governance/ @project-maintainer
+/.github/ @project-maintainer
+/scripts/ @project-maintainer
+/tests/ @project-maintainer

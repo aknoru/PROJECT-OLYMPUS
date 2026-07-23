@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "data_classification": "synthetic",
+  "purpose": "CI, workflow, dashboard, and documentation validation only",
+  "files": [
+    "sample-execution-log.json",
+    "sample-kpi-log.json",
+    "sample-review-log.json",
+    "sample-recovery-log.json",
+    "sample-gate-dashboard.json",
+    "sample-placement-dashboard.json",
+    "sample-research-notebook.md",
+    "sample-engineering-notebook.md",
+    "sample-weekly-review.md",
+    "sample-monthly-review.md",
+    "sample-command-center.json"
+  ]
+}
