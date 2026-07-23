@@ -1,55 +1,73 @@
 ---
 id: DOCS-LIFECYCLE-MD
-title: "Lifecycle"
-type: placeholder
-status: planned
-version: 0.1.0
+title: "Review Cadence"
+type: operational-guide
+status: active
+version: 1.2.0
 owner: project-maintainer
 ---
 
-# Lifecycle
+# Review Cadence
 
 ## Purpose
 
-Reserve the architecture-defined location and content contract for future implementation.
+Define when Olympus observes execution, updates plans, and changes the system.
 
-## Status
+## Daily Loop
 
-Planned placeholder. No substantive content is implemented in this scaffold.
+`Select → Execute → Verify → Record → Close`
 
-## Contents
+Daily changes should be limited to evidence, task state, blockers, and the next
+action. Avoid redesigning the system during the work block.
 
-<!-- TODO: Register the architecture-defined contents of this location. -->
+## Weekly Loop
 
-## Dependencies
+1. Collect completed evidence and unresolved errors.
+2. Compare planned and actual capacity.
+3. Review work in progress and remove stale commitments.
+4. Identify the highest-leverage technical weakness.
+5. Select the next weekly outcome and acceptance evidence.
+6. Run repository validation after documentation or data changes.
+7. Commit the review and resulting plan.
 
-<!-- TODO: Add stable dependency IDs during the applicable implementation prompt. -->
+## Monthly Loop
+
+1. Review leading actions, lagging evidence, capacity, and risk.
+2. Inspect recurring failure modes rather than isolated bad days.
+3. Review technical debt and repository health.
+4. Adjust roadmap scope without concealing missed work.
+5. Record decisions and their evidence.
+
+## Change-Control Gate
+
+| Change | Required control |
+|---|---|
+| Daily evidence or plan | Normal commit |
+| Protocol clarification | Review and validation |
+| Canonical filename or structure | Approved ADR |
+| Metric definition or threshold | Registry review |
+| Release | Release workflow and acceptance evidence |
 
 ## Navigation
 
-- [Master Architecture](../MASTER_ARCHITECTURE.md)
-- [Directory README](README.md)
-
-## Future Content
-
-<!-- TODO: Implement only under the corresponding approved implementation prompt. -->
-
-## TODO
-
-- [ ] Confirm scope against the master architecture.
-- [ ] Implement the required content contract.
-- [ ] Complete technical and editorial review.
+- [Command Center](index.md)
+- [Start Today](quickstart.md)
+- [Repository Health](repository-health.md)
+- [Architecture Decisions](adrs.md)
 
 ## Cross References
 
-- [Master Architecture](../MASTER_ARCHITECTURE.md)
-
-## Acceptance Criteria
-
-- [ ] Required sections are implemented.
-- [ ] Metadata and internal links validate.
-- [ ] Acceptance evidence is recorded.
+- [Weekly System](../01-operation-renaissance/03-execution-system/weekly-system.md)
+- [Monthly System](../01-operation-renaissance/03-execution-system/monthly-system.md)
+- [Review System](../01-operation-renaissance/13-review-system/README.md)
 
 ## References
 
-<!-- TODO: Add registered source IDs when substantive content is authorized. -->
+- [Master Architecture](../MASTER_ARCHITECTURE.md)
+
+## Revision History
+
+| Version | Change |
+|---|---|
+| 1.2.0 | Implemented daily, weekly, monthly, and change-control loops. |
+

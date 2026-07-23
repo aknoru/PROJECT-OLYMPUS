@@ -19,13 +19,13 @@
       "version": "1.1.0"
     },
     {
-      "id": "GITHUB-README-MD",
+      "id": "GITHUB-PROJECT-README",
       "owner": "project-maintainer",
       "path": ".github/README.md",
-      "status": "planned",
-      "title": ".Github",
-      "type": "readme",
-      "version": "0.1.0"
+      "status": "active",
+      "title": "Project Olympus GitHub Overview",
+      "type": "platform-documentation",
+      "version": "1.1.0"
     },
     {
       "id": "GITHUB-WORKFLOWS-README-MD",
@@ -8741,19 +8741,19 @@
       "id": "DOCS-INDEX-MD",
       "owner": "project-maintainer",
       "path": "docs/index.md",
-      "status": "planned",
-      "title": "Index",
-      "type": "placeholder",
-      "version": "0.1.0"
+      "status": "active",
+      "title": "Olympus Command Center",
+      "type": "documentation-home",
+      "version": "1.2.0"
     },
     {
       "id": "DOCS-LIFECYCLE-MD",
       "owner": "project-maintainer",
       "path": "docs/lifecycle.md",
-      "status": "planned",
-      "title": "Lifecycle",
-      "type": "placeholder",
-      "version": "0.1.0"
+      "status": "active",
+      "title": "Review Cadence",
+      "type": "operational-guide",
+      "version": "1.2.0"
     },
     {
       "id": "DOCS-MIGRATION-GUIDE-MD",
@@ -8768,19 +8768,19 @@
       "id": "DOCS-NAVIGATION-MD",
       "owner": "project-maintainer",
       "path": "docs/navigation.md",
-      "status": "planned",
-      "title": "Navigation",
-      "type": "placeholder",
-      "version": "0.1.0"
+      "status": "active",
+      "title": "Repository Map",
+      "type": "navigation",
+      "version": "1.2.0"
     },
     {
       "id": "DOCS-QUICKSTART-MD",
       "owner": "project-maintainer",
       "path": "docs/quickstart.md",
-      "status": "planned",
-      "title": "Quickstart",
-      "type": "placeholder",
-      "version": "0.1.0"
+      "status": "active",
+      "title": "Start Today",
+      "type": "operational-guide",
+      "version": "1.2.0"
     },
     {
       "id": "DOCS-README-MD",

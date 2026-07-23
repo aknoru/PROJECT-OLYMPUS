@@ -1,7 +1,9 @@
 site_name: Project Olympus
 site_description: Markdown-native Engineering Operating System
-site_url: https://example.invalid/project-olympus/
-repo_name: project-olympus
+site_url: https://aknoru.github.io/PROJECT-OLYMPUS/
+repo_name: aknoru/PROJECT-OLYMPUS
+repo_url: https://github.com/aknoru/PROJECT-OLYMPUS
+edit_uri: edit/main/docs/
 docs_dir: docs
 exclude_docs: |
   README.md
@@ -10,10 +12,12 @@ theme:
   features:
     - navigation.instant
     - navigation.sections
+    - navigation.tabs
     - navigation.top
     - search.highlight
     - search.suggest
     - content.code.copy
+    - content.action.edit
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -45,16 +49,19 @@ validation:
   links:
     not_found: ignore
 nav:
-  - Home: index.md
-  - Quick Start: quickstart.md
-  - Navigation: navigation.md
-  - System Model: system-model.md
-  - Lifecycle: lifecycle.md
-  - Architecture: architecture.md
-  - ADRs: adrs.md
-  - Reports: reports.md
-  - Appendices: appendices.md
-  - Repository Statistics: repository-statistics.md
-  - Repository Health: repository-health.md
-  - FAQ: faq.md
-  - Migration Guide: migration-guide.md
+  - Command Center: index.md
+  - Execute:
+      - Start Today: quickstart.md
+      - Review Cadence: lifecycle.md
+      - Recovery: appendices.md
+  - Explore:
+      - Repository Map: navigation.md
+      - System Model: system-model.md
+      - Architecture: architecture.md
+  - Maintain:
+      - Repository Health: repository-health.md
+      - Repository Statistics: repository-statistics.md
+      - Reports: reports.md
+      - Architecture Decisions: adrs.md
+      - Migration Guide: migration-guide.md
+      - FAQ: faq.md
