@@ -15,8 +15,8 @@ owner: automation
 
 | Metric | Current | Delta |
 |---|---:|---:|
-| Markdown Files | 1093 | +1 |
-| Word Count | 240644 | +940 |
-| Tables | 345 | +1 |
-| Mermaid Diagrams | 180 | +1 |
-| Markdown Links | 4109 | +7 |
+| Markdown Files | 1093 | +0 |
+| Word Count | 240644 | +0 |
+| Tables | 345 | +0 |
+| Mermaid Diagrams | 180 | +0 |
+| Markdown Links | 4109 | +0 |
