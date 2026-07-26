@@ -1,13 +1,13 @@
 {
-  "approved_or_released": 206,
-  "completion_percentage": 19.06,
+  "approved_or_released": 210,
+  "completion_percentage": 19.44,
   "decision_trees": 149,
-  "generated_at": "2026-07-23T10:22:16.650701+00:00",
-  "markdown_files": 1081,
-  "markdown_links": 3935,
+  "generated_at": "2026-07-26T13:43:26.232747+00:00",
+  "markdown_files": 1080,
+  "markdown_links": 3928,
   "mermaid_diagrams": 159,
-  "planned": 845,
-  "readme_files": 494,
-  "tables": 286,
-  "word_count": 219959
+  "planned": 840,
+  "readme_files": 492,
+  "tables": 288,
+  "word_count": 227293
 }

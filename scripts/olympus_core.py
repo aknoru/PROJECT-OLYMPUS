@@ -73,7 +73,8 @@ def relative(path: Path, root: Path = ROOT) -> str:
 
 
 def read(path: Path) -> str:
-    return path.read_text(encoding="utf-8", errors="replace")
+    # Use utf-8-sig to strip the UTF-8 BOM (EF BB BF) that some Windows editors write.
+    return path.read_text(encoding="utf-8-sig", errors="replace")
 
 
 def without_fences(text: str) -> str:
@@ -440,7 +441,10 @@ def validate_repository(root: Path = ROOT) -> list[CheckResult]:
 
 def write_json(path: Path, value: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
+    content = json.dumps(value, indent=2, sort_keys=True) + "\n"
+    # Use open() with newline="" for Python 3.9 compatibility (write_text newline= added in 3.10)
+    with path.open("w", encoding="utf-8", newline="") as fh:
+        fh.write(content)
 
 
 def render_summary(results: Iterable[CheckResult]) -> str:

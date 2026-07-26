@@ -16,7 +16,8 @@ def main() -> int:
             lines.append(f'    {target.replace("-", "_")}["{target}"] --> {source.replace("-", "_")}["{source}"]')
             count += 1
     path = ROOT / "data/generated/dependency-graph.mmd"
-    path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
+    with path.open("w", encoding="utf-8", newline="") as fh:
+        fh.write("\n".join(lines) + "\n")
     print(f"Wrote {count} dependency edges")
     return 0
 

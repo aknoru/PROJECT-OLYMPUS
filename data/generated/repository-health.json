@@ -11,8 +11,8 @@
     {
       "issues": [],
       "metrics": {
-        "files": 1081,
-        "unique_ids": 1081
+        "files": 1085,
+        "unique_ids": 1085
       },
       "name": "frontmatter",
       "passed": true
@@ -20,8 +20,8 @@
     {
       "issues": [],
       "metrics": {
-        "files": 1081,
-        "tables": 286
+        "files": 1085,
+        "tables": 317
       },
       "name": "markdown",
       "passed": true
@@ -29,7 +29,7 @@
     {
       "issues": [],
       "metrics": {
-        "internal_links": 3935
+        "internal_links": 3969
       },
       "name": "links",
       "passed": true
@@ -37,7 +37,7 @@
     {
       "issues": [],
       "metrics": {
-        "diagrams": 159
+        "diagrams": 160
       },
       "name": "mermaid",
       "passed": true
@@ -94,26 +94,26 @@
       "passed": true
     }
   ],
-  "generated_at": "2026-07-23T10:22:23.270357+00:00",
+  "generated_at": "2026-07-26T13:51:07.540099+00:00",
   "statistics": {
-    "approved_or_released": 206,
-    "completion_percentage": 19.06,
+    "approved_or_released": 216,
+    "completion_percentage": 19.91,
     "decision_trees": 149,
-    "generated_at": "2026-07-23T10:22:23.177357+00:00",
-    "markdown_files": 1081,
-    "markdown_links": 3935,
-    "mermaid_diagrams": 159,
-    "planned": 845,
-    "readme_files": 494,
-    "tables": 286,
-    "word_count": 219959
+    "generated_at": "2026-07-26T13:51:07.343581+00:00",
+    "markdown_files": 1085,
+    "markdown_links": 3969,
+    "mermaid_diagrams": 160,
+    "planned": 839,
+    "readme_files": 492,
+    "tables": 317,
+    "word_count": 232593
   },
   "status": "healthy",
   "trend_from_previous_generation": {
-    "markdown_files": 0,
-    "markdown_links": -11,
-    "mermaid_diagrams": 0,
-    "tables": -1,
-    "word_count": 231
+    "markdown_files": 5,
+    "markdown_links": 41,
+    "mermaid_diagrams": 1,
+    "tables": 29,
+    "word_count": 5300
   }
 }
