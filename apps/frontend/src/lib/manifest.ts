@@ -1,6 +1,6 @@
 import { PlatformManifest, SearchRecord } from './types';
-import manifestData from '../../../data/generated/platform-manifest.json';
-import searchIndexData from '../../../data/generated/search-index.json';
+import manifestData from '../../../../data/generated/platform-manifest.json';
+import searchIndexData from '../../../../data/generated/search-index.json';
 
 export function getPlatformManifest(): PlatformManifest {
   return manifestData as unknown as PlatformManifest;

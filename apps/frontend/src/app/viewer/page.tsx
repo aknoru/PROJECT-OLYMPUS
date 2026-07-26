@@ -1,13 +1,13 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { getDocumentByPath } from '../../lib/manifest';
 import { MarkdownViewer } from '../../components/MarkdownViewer';
 import { DocumentEntry } from '../../lib/types';
 import { BookOpen, AlertTriangle } from 'lucide-react';
 
-export default function ViewerPage() {
+function ViewerPageContent() {
   const searchParams = useSearchParams();
   const rawPath = searchParams.get('path') || 'README.md';
 
@@ -77,4 +77,19 @@ export default function ViewerPage() {
   }
 
   return <MarkdownViewer document={document} content={content} />;
+}
+
+export default function ViewerPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="flex h-96 items-center justify-center text-slate-400 text-xs">
+          <BookOpen className="h-6 w-6 animate-pulse text-blue-400 mr-2" />
+          Loading Project Olympus Document...
+        </div>
+      }
+    >
+      <ViewerPageContent />
+    </Suspense>
+  );
 }
