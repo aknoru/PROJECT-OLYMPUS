@@ -24905,8 +24905,8 @@
       "domain": "02-engineering-foundations",
       "id": "02-ENGINEERING-FOUNDATIONS-10-PROGRAMMING-AND-DATA-STRUCTURES-README-MD",
       "languages": [
-        "c",
-        "mermaid"
+        "mermaid",
+        "c"
       ],
       "math_count": 1,
       "mermaid_count": 1,
@@ -80394,9 +80394,9 @@
       "domain": "other",
       "id": "MASTER-PROMPT-ORCHESTRATOR",
       "languages": [
-        "markdown",
+        "yaml",
         "text",
-        "yaml"
+        "markdown"
       ],
       "math_count": 0,
       "mermaid_count": 0,
@@ -82241,9 +82241,9 @@
       "domain": "root",
       "id": "MASTER-ARCHITECTURE",
       "languages": [
-        "markdown",
         "yaml",
         "text",
+        "markdown",
         "mermaid"
       ],
       "math_count": 0,

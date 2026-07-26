@@ -45,7 +45,7 @@
     {
       "issues": [],
       "metrics": {
-        "files": 25
+        "files": 28
       },
       "name": "yaml",
       "passed": true
@@ -53,7 +53,7 @@
     {
       "issues": [],
       "metrics": {
-        "files": 18
+        "files": 22
       },
       "name": "json",
       "passed": true
@@ -94,12 +94,12 @@
       "passed": true
     }
   ],
-  "generated_at": "2026-07-26T14:19:43.321938+00:00",
+  "generated_at": "2026-07-26T15:03:09.756370+00:00",
   "statistics": {
     "approved_or_released": 249,
     "completion_percentage": 22.78,
     "decision_trees": 149,
-    "generated_at": "2026-07-26T14:19:43.107007+00:00",
+    "generated_at": "2026-07-26T15:03:09.565536+00:00",
     "markdown_files": 1093,
     "markdown_links": 4109,
     "mermaid_diagrams": 180,
