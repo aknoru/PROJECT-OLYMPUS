@@ -74,6 +74,7 @@ The decision tree above defines the control flow for this protocol.
 ## Cross References
 
 - [184-Day Roadmap](184-day-roadmap.md)
+- [Integrated GATE ECE/EIE & IIT-JAM Roadmap](184-day-roadmap-integrated-ece-eie-jam.md)
 - [Phase 1 — Foundations](phase-1-foundations.md)
 - [Phase 2 — Build](phase-2-build.md)
 - [Phase 3 — Integrate](phase-3-integrate.md)
