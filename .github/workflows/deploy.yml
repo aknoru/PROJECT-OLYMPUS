@@ -44,7 +44,7 @@ jobs:
       - name: Install Frontend Dependencies & Export Static Site
         working-directory: apps/frontend
         run: |
-          npm ci
+          npm install
           npm run build
 
       - name: Setup Pages
