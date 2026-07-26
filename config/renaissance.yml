@@ -1,0 +1,29 @@
+schema_version: 1.0.0
+status: active
+kind: renaissance-configuration
+classification: active-campaign
+campaign:
+  start_date: "2026-08-01"
+  end_date: "2027-01-31"
+  timezone: Asia/Kolkata
+  buffer_fraction: 0.20
+  active_project_limit: 3
+  streams:
+    - GATE_ECE
+    - GATE_EIE
+    - IIT_JAM_MA
+daily_allocation:
+  phase_0_hours: 6.0
+  phase_1_hours: 8.0
+  phase_2_hours: 8.5
+  phase_3_hours: 9.0
+  phase_4_hours: 9.5
+  phase_5_hours: 7.5
+paths:
+  private_observations: private/data
+  generated_calendar: data/generated/renaissance-calendar.csv
+  roadmap_spec: 01-operation-renaissance/02-roadmap/184-day-roadmap-integrated-ece-eie-jam.md
+rules:
+  dates_are_configurable: true
+  phase_advancement_requires_evidence: true
+  automatic_backlog_rollover: false

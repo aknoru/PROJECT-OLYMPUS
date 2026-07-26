@@ -11,8 +11,8 @@
     {
       "issues": [],
       "metrics": {
-        "files": 1092,
-        "unique_ids": 1092
+        "files": 1093,
+        "unique_ids": 1093
       },
       "name": "frontmatter",
       "passed": true
@@ -20,8 +20,8 @@
     {
       "issues": [],
       "metrics": {
-        "files": 1092,
-        "tables": 344
+        "files": 1093,
+        "tables": 345
       },
       "name": "markdown",
       "passed": true
@@ -29,7 +29,7 @@
     {
       "issues": [],
       "metrics": {
-        "internal_links": 4102
+        "internal_links": 4109
       },
       "name": "links",
       "passed": true
@@ -37,7 +37,7 @@
     {
       "issues": [],
       "metrics": {
-        "diagrams": 179
+        "diagrams": 180
       },
       "name": "mermaid",
       "passed": true
@@ -78,7 +78,7 @@
     {
       "issues": [],
       "metrics": {
-        "operation_files": 174,
+        "operation_files": 175,
         "orphans": 0
       },
       "name": "navigation",
@@ -94,26 +94,26 @@
       "passed": true
     }
   ],
-  "generated_at": "2026-07-26T14:11:37.398916+00:00",
+  "generated_at": "2026-07-26T14:17:26.470727+00:00",
   "statistics": {
-    "approved_or_released": 248,
-    "completion_percentage": 22.71,
+    "approved_or_released": 249,
+    "completion_percentage": 22.78,
     "decision_trees": 149,
-    "generated_at": "2026-07-26T14:11:37.202467+00:00",
-    "markdown_files": 1092,
-    "markdown_links": 4102,
-    "mermaid_diagrams": 179,
+    "generated_at": "2026-07-26T14:17:26.280117+00:00",
+    "markdown_files": 1093,
+    "markdown_links": 4109,
+    "mermaid_diagrams": 180,
     "planned": 814,
     "readme_files": 495,
-    "tables": 344,
-    "word_count": 239704
+    "tables": 345,
+    "word_count": 240644
   },
   "status": "healthy",
   "trend_from_previous_generation": {
-    "markdown_files": 5,
-    "markdown_links": 12,
-    "mermaid_diagrams": 0,
-    "tables": 0,
-    "word_count": 927
+    "markdown_files": 1,
+    "markdown_links": 7,
+    "mermaid_diagrams": 1,
+    "tables": 1,
+    "word_count": 940
   }
 }
