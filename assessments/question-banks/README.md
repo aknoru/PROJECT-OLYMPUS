@@ -1,55 +1,33 @@
 ---
 id: ASSESSMENTS-QUESTION-BANKS-README-MD
-title: "Question Banks"
-type: readme
-status: planned
-version: 0.1.0
+title: "Question Banks Index"
+type: question-bank
+status: active
+version: 1.0.0
 owner: project-maintainer
+description: Index of practice question sets and high-yield problems across engineering subjects.
 ---
 
 # Question Banks
 
-## Purpose
+> **Location:** `assessments/question-banks/`  
+> **Purpose:** Repository of categorized practice problems, numerical exercises, and conceptual questions for active recall and assessment.
 
-Define the scope, navigation, and placeholder inventory for this directory.
+---
 
-## Status
+## Question Bank Inventory
 
-Planned placeholder. No substantive content is implemented in this scaffold.
+| Bank ID | Subject | Problem Count | Status |
+|---------|---------|---------------|--------|
+| [`QB-EF-MATH-01.md`](QB-EF-MATH-01.md) | Engineering Mathematics | 15 Problems | ✅ Active |
+| `QB-EF-NET-01.md` | Network Theory | 15 Problems | 💡 Planned |
+| `QB-EF-SIG-01.md` | Signals & Systems | 15 Problems | 💡 Planned |
+| `QB-FD-VER-01.md` | Verilog & Digital Logic | 15 Problems | 💡 Planned |
+| `QB-ES-C-01.md` | Embedded C & Microcontrollers | 15 Problems | 💡 Planned |
 
-## Contents
-
-<!-- TODO: Register the architecture-defined contents of this location. -->
-
-## Dependencies
-
-<!-- TODO: Add stable dependency IDs during the applicable implementation prompt. -->
+---
 
 ## Navigation
 
-- [Parent directory](../README.md)
-- [Master Architecture](../../MASTER_ARCHITECTURE.md)
-
-## Future Content
-
-<!-- TODO: Implement only under the corresponding approved implementation prompt. -->
-
-## TODO
-
-- [ ] Confirm scope against the master architecture.
-- [ ] Implement the required content contract.
-- [ ] Complete technical and editorial review.
-
-## Cross References
-
-- [Master Architecture](../../MASTER_ARCHITECTURE.md)
-
-## Acceptance Criteria
-
-- [ ] Required sections are implemented.
-- [ ] Metadata and internal links validate.
-- [ ] Acceptance evidence is recorded.
-
-## References
-
-<!-- TODO: Add registered source IDs when substantive content is authorized. -->
+- [Assessment Index](../../ASSESSMENT_INDEX.md)
+- [Assessments Root](../README.md)

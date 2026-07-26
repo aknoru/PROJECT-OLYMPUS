@@ -1,55 +1,43 @@
 ---
 id: 12-HEALTH-RESILIENCE-AND-PERFORMANCE-README-MD
-title: "12 Health Resilience And Performance"
-type: readme
-status: planned
-version: 0.1.0
+title: "12 Health Resilience and Performance"
+type: domain-root
+status: active
+version: 1.0.0
 owner: project-maintainer
+description: Master domain directory covering sleep protocols, physical capacity, nutrition literacy, ergonomics, stress regulation, and sustainable performance engineering.
 ---
 
-# 12 Health Resilience And Performance
+# 12 Health Resilience and Performance
 
-## Purpose
+> **Status:** Active  
+> **Domain Classification:** Human Capacity Infrastructure, Health Engineering & Stress Recovery  
+> **Target Audience:** High-Performance Engineers, Researchers, Knowledge Workers  
 
-Define the scope, navigation, and placeholder inventory for this directory.
+---
 
-## Status
+## Domain Overview
 
-Planned placeholder. No substantive content is implemented in this scaffold.
+`12 Health Resilience and Performance` establishes the physical and mental operating capacity required for long-horizon engineering execution.
 
-## Contents
+---
 
-<!-- TODO: Register the architecture-defined contents of this location. -->
+## Directory Modules & Curriculum Index
 
-## Dependencies
+| # | Module Directory | Focus Area | Key Concepts | Status |
+|---|------------------|------------|--------------|--------|
+| **01** | `01-sleep-and-recovery/` | Sleep Engine | Circadian Hygiene, Sleep Architecture, HRV Tracking, Sleep Deficit Recovery | ✅ Active |
+| **02** | `02-physical-capacity/` | Physical Fitness | Resistance Training, Aerobic Base (Zone 2), Mobility, Functional Capacity | ✅ Active |
+| **03** | `03-nutrition-literacy/` | Energy Engine | Macronutrient Balance, Hydration, Energy Stability, Whole Foods Foundation | ✅ Active |
+| **04** | `04-ergonomics-and-injury-prevention/` | Ergonomics | Desk Setup, Posture, Repetitive Strain Injury (RSI) Prevention, Eye Care | ✅ Active |
+| **05** | `05-stress-and-emotional-skills/` | Cognitive Recovery | Stress Physiology, Cortisol Management, Downregulation Protocols, Focus Preservation | ✅ Active |
+| **06** | `06-support-and-professional-care/` | Escalation Limits | Professional Medical Care Boundaries, Mental Health Triage, Social Support | ✅ Active |
+| **07** | `07-sustainable-performance/` | Sustainable Load | Work-Rest Ratio, Burnout Prevention, Cognitive Load Management, Seasonality | ✅ Active |
 
-<!-- TODO: Add stable dependency IDs during the applicable implementation prompt. -->
+---
 
-## Navigation
+## Navigation & Cross-References
 
-- [Parent directory](../README.md)
+- [Parent Directory (Repository Root)](../README.md)
 - [Master Architecture](../MASTER_ARCHITECTURE.md)
-
-## Future Content
-
-<!-- TODO: Implement only under the corresponding approved implementation prompt. -->
-
-## TODO
-
-- [ ] Confirm scope against the master architecture.
-- [ ] Implement the required content contract.
-- [ ] Complete technical and editorial review.
-
-## Cross References
-
-- [Master Architecture](../MASTER_ARCHITECTURE.md)
-
-## Acceptance Criteria
-
-- [ ] Required sections are implemented.
-- [ ] Metadata and internal links validate.
-- [ ] Acceptance evidence is recorded.
-
-## References
-
-<!-- TODO: Add registered source IDs when substantive content is authorized. -->
+- [Knowledge Graph](../KNOWLEDGE_GRAPH.md)

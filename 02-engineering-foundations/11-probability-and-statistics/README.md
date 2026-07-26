@@ -1,55 +1,78 @@
 ---
 id: 02-ENGINEERING-FOUNDATIONS-11-PROBABILITY-AND-STATISTICS-README-MD
-title: "11 Probability And Statistics"
-type: readme
-status: planned
-version: 0.1.0
+title: "11 Probability and Statistics"
+type: curriculum-module
+status: active
+version: 1.0.0
 owner: project-maintainer
+description: Core curriculum module covering Axiomatic Probability, Conditional Probability, Random Variables, Distributions, Joint Distributions, Central Limit Theorem, and Hypothesis Testing.
 ---
 
-# 11 Probability And Statistics
+# 11 Probability and Statistics
 
-## Purpose
+> **Domain:** 02 Engineering Foundations  
+> **Target Audience:** Undergraduate ECE / CS / Data Engineers  
+> **Prerequisites:** Calculus, Integration, Set Theory  
 
-Define the scope, navigation, and placeholder inventory for this directory.
+---
 
-## Status
+## 1. Overview & Objectives
 
-Planned placeholder. No substantive content is implemented in this scaffold.
+Probability and Statistics provides the mathematical foundation for analyzing random phenomena, signal noise, statistical decision-making, and machine learning models.
 
-## Contents
+### Key Objectives
+1. **Axiomatic Probability:** Sample spaces, events, Bayes' theorem, total probability rule, independence.
+2. **Discrete Random Variables:** PMF, CDF, Mean, Variance, Binomial, Poisson, Uniform distributions.
+3. **Continuous Random Variables:** PDF, CDF, Expectation, Variance, Normal (Gaussian), Exponential, Uniform distributions.
+4. **Joint Distributions:** Joint PDF/PMF, Marginal distributions, Conditional expectation, Covariance, Correlation Coefficient.
+5. **Limit Theorems & Inference:** Law of Large Numbers (LLN), Central Limit Theorem (CLT), Hypothesis Testing (t-test, Z-test).
 
-<!-- TODO: Register the architecture-defined contents of this location. -->
+---
 
-## Dependencies
+## 2. Topic Breakdown & Syllabus
 
-<!-- TODO: Add stable dependency IDs during the applicable implementation prompt. -->
+```mermaid
+flowchart TD
+    PS["Probability & Statistics"]
+    PROB["1. Axiomatic & Conditional Probability"]
+    RV["2. Random Variables & Distributions"]
+    JOINT["3. Joint Distributions & Correlation"]
+    INF["4. Limit Theorems & Statistical Inference"]
 
-## Navigation
+    PS --> PROB
+    PS --> RV
+    PS --> JOINT
+    PS --> INF
 
-- [Parent directory](../README.md)
-- [Master Architecture](../../MASTER_ARCHITECTURE.md)
+    PROB --> PR1["Sample Space, Events & Axioms"]
+    PROB --> PR2["Conditional Probability & Bayes' Theorem"]
 
-## Future Content
+    RV --> RV1["Discrete Distributions (Binomial, Poisson)"]
+    RV --> RV2["Continuous Distributions (Gaussian, Exponential)"]
 
-<!-- TODO: Implement only under the corresponding approved implementation prompt. -->
+    JOINT --> J1["Joint PDF/PMF & Marginal Distributions"]
+    JOINT --> J2["Covariance \text{Cov}(X,Y) & Correlation \rho"]
 
-## TODO
+    INF --> I1["Central Limit Theorem (CLT)"]
+    INF --> I2["Hypothesis Testing & Confidence Intervals"]
+```
 
-- [ ] Confirm scope against the master architecture.
-- [ ] Implement the required content contract.
-- [ ] Complete technical and editorial review.
+---
 
-## Cross References
+## 3. Core Equations
 
-- [Master Architecture](../../MASTER_ARCHITECTURE.md)
+| Concept | Equation | Application |
+|---------|----------|-------------|
+| **Bayes' Theorem** | $P(A\|B) = \frac{P(B\|A) P(A)}{P(B)}$ | Inference, classification, noise estimation |
+| **Gaussian Distribution** | $f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$ | Noise modeling, channel analysis |
+| **Correlation Coefficient** | $\rho_{X,Y} = \frac{\text{Cov}(X,Y)}{\sigma_X \sigma_Y}$ | Signal independence & feature selection |
+| **Central Limit Theorem** | $\bar{X}_n \xrightarrow{d} \mathcal{N}\left(\mu, \frac{\sigma^2}{n}\right)$ | Large sample statistical approximation |
 
-## Acceptance Criteria
+---
 
-- [ ] Required sections are implemented.
-- [ ] Metadata and internal links validate.
-- [ ] Acceptance evidence is recorded.
+## 4. Navigation & Cross-References
 
-## References
-
-<!-- TODO: Add registered source IDs when substantive content is authorized. -->
+- [Parent Directory](../README.md)
+- [08 Communications](../08-communications/README.md)
+- [07 Research and Graduate Study](../../07-research-and-graduate-study/README.md)
+- [Knowledge Graph](../../KNOWLEDGE_GRAPH.md)

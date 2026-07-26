@@ -1,55 +1,98 @@
 ---
 id: 02-ENGINEERING-FOUNDATIONS-10-PROGRAMMING-AND-DATA-STRUCTURES-README-MD
-title: "10 Programming And Data Structures"
-type: readme
-status: planned
-version: 0.1.0
+title: "10 Programming and Data Structures"
+type: curriculum-module
+status: active
+version: 1.0.0
 owner: project-maintainer
+description: Core curriculum module covering C Language Fundamentals, Pointers, Arrays, Stacks, Queues, Linked Lists, Trees, Graphs, Sorting, and Searching Algorithms.
 ---
 
-# 10 Programming And Data Structures
+# 10 Programming and Data Structures
 
-## Purpose
+> **Domain:** 02 Engineering Foundations  
+> **Target Audience:** Undergraduate ECE / CS / Software Engineers  
+> **Prerequisites:** Logic and basic mathematics  
 
-Define the scope, navigation, and placeholder inventory for this directory.
+---
 
-## Status
+## 1. Overview & Objectives
 
-Planned placeholder. No substantive content is implemented in this scaffold.
+Programming and Data Structures establishes the foundations of procedural programming in C, memory management via pointers, dynamic data structures, and algorithmic complexity analysis ($O, \Omega, \Theta$).
 
-## Contents
+### Key Objectives
+1. **C Programming Basics:** Control structures, functions, recursion, scope, structures/unions, dynamic memory (`malloc`/`free`).
+2. **Pointers & Memory:** Pointer arithmetic, function pointers, multi-dimensional array memory layout, memory leaks.
+3. **Linear Data Structures:** Arrays, Stacks (array/linked list implementation), Queues, Circular Queues, Priority Queues.
+4. **Linked Structures:** Singly, Doubly, and Circular Linked Lists; Operations (Insert, Delete, Reverse, Cycle Detection).
+5. **Non-Linear Data Structures & Algorithms:** Binary Trees, BST, AVL Trees, Heaps, Graph Traversals (BFS, DFS), Sorting (Merge, Quick, Heap) and Searching (Binary Search).
 
-<!-- TODO: Register the architecture-defined contents of this location. -->
+---
 
-## Dependencies
+## 2. Topic Breakdown & Syllabus
 
-<!-- TODO: Add stable dependency IDs during the applicable implementation prompt. -->
+```mermaid
+flowchart TD
+    PDS["Programming & Data Structures"]
+    CPROG["1. C Language & Pointers"]
+    LINEAR["2. Linear Data Structures"]
+    NONLINEAR["3. Trees & Graphs"]
+    ALGO["4. Algorithms & Complexity"]
 
-## Navigation
+    PDS --> CPROG
+    PDS --> LINEAR
+    PDS --> NONLINEAR
+    PDS --> ALGO
 
-- [Parent directory](../README.md)
-- [Master Architecture](../../MASTER_ARCHITECTURE.md)
+    CPROG --> C1["Control Flow & Recursion"]
+    CPROG --> C2["Pointers & Dynamic Memory (malloc/free)"]
 
-## Future Content
+    LINEAR --> L1["Arrays & Strings"]
+    LINEAR --> L2["Stacks & Queues (Array & LL based)"]
+    LINEAR --> L3["Singly & Doubly Linked Lists"]
 
-<!-- TODO: Implement only under the corresponding approved implementation prompt. -->
+    NONLINEAR --> N1["Binary Trees & BST Operations"]
+    NONLINEAR --> N2["Graphs: Adjacency List/Matrix, BFS/DFS"]
 
-## TODO
+    ALGO --> A1["Asymptotic Analysis (O, Omega, Theta)"]
+    ALGO --> A2["Sorting: Quick, Merge, Heap Sort"]
+```
 
-- [ ] Confirm scope against the master architecture.
-- [ ] Implement the required content contract.
-- [ ] Complete technical and editorial review.
+---
 
-## Cross References
+## 3. C Implementation Example — Stack via Linked List
 
-- [Master Architecture](../../MASTER_ARCHITECTURE.md)
+```c
+#include <stdio.h>
+#include <stdlib.h>
 
-## Acceptance Criteria
+typedef struct Node {
+    int data;
+    struct Node* next;
+} Node;
 
-- [ ] Required sections are implemented.
-- [ ] Metadata and internal links validate.
-- [ ] Acceptance evidence is recorded.
+void push(Node** top, int val) {
+    Node* newNode = (Node*)malloc(sizeof(Node));
+    newNode->data = val;
+    newNode->next = *top;
+    *top = newNode;
+}
 
-## References
+int pop(Node** top) {
+    if (*top == NULL) return -1;
+    Node* temp = *top;
+    int val = temp->data;
+    *top = (*top)->next;
+    free(temp);
+    return val;
+}
+```
 
-<!-- TODO: Add registered source IDs when substantive content is authorized. -->
+---
+
+## 4. Navigation & Cross-References
+
+- [Parent Directory](../README.md)
+- [06 Software and Tooling](../../06-software-and-tooling/README.md)
+- [04 Embedded Systems](../../04-embedded-systems/README.md)
+- [Knowledge Graph](../../KNOWLEDGE_GRAPH.md)

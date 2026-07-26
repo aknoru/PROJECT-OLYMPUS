@@ -1,55 +1,43 @@
 ---
 id: 09-COMMUNICATION-AND-LEADERSHIP-README-MD
-title: "09 Communication And Leadership"
-type: readme
-status: planned
-version: 0.1.0
+title: "09 Communication and Leadership"
+type: domain-root
+status: active
+version: 1.0.0
 owner: project-maintainer
+description: Master domain directory covering technical writing, engineering presentations, team collaboration, conflict resolution, project leadership, and systems thinking.
 ---
 
-# 09 Communication And Leadership
+# 09 Communication and Leadership
 
-## Purpose
+> **Status:** Active  
+> **Domain Classification:** Engineering Communication, Technical Leadership & Team Systems  
+> **Target Audience:** Technical Leads, Engineering Managers, Team Contributors  
 
-Define the scope, navigation, and placeholder inventory for this directory.
+---
 
-## Status
+## Domain Overview
 
-Planned placeholder. No substantive content is implemented in this scaffold.
+`09 Communication and Leadership` trains engineers in clear technical writing, high-stakes engineering presentations, architectural reviews, constructive code/design feedback, cross-functional collaboration, and systems thinking.
 
-## Contents
+---
 
-<!-- TODO: Register the architecture-defined contents of this location. -->
+## Directory Modules & Curriculum Index
 
-## Dependencies
+| # | Module Directory | Focus Area | Key Concepts | Status |
+|---|------------------|------------|--------------|--------|
+| **01** | `01-technical-writing/` | Technical Writing | RFCs, ADRs, Design Specs, User Documentation, Markdown Standards | ✅ Active |
+| **02** | `02-presentations/` | Technical Speaking | Slide Architecture, Technical Demos, Executive Briefings, Q&A Handling | ✅ Active |
+| **03** | `03-collaboration/` | Team Dynamics | Asynchronous Communication, Code Reviews, Issue Tracking, Pair Programming | ✅ Active |
+| **04** | `04-feedback-and-conflict/` | Conflict Resolution | Radical Candor, Constructive Feedback, Blameless Postmortems, Negotiation | ✅ Active |
+| **05** | `05-project-leadership/` | Tech Leadership | Technical Ownership, Scope Management, Delegation, Risk Escalation | ✅ Active |
+| **06** | `06-systems-thinking/` | Systems Thinking | Causal Loop Diagrams, Feedback Loops, Trade-off Analysis, Second-Order Effects | ✅ Active |
+| **07** | `07-engineering-management/` | Management Basics | Engineering 1:1s, Mentorship, Team Velocity, Technical Debt Balancing | ✅ Active |
 
-<!-- TODO: Add stable dependency IDs during the applicable implementation prompt. -->
+---
 
-## Navigation
+## Navigation & Cross-References
 
-- [Parent directory](../README.md)
+- [Parent Directory (Repository Root)](../README.md)
 - [Master Architecture](../MASTER_ARCHITECTURE.md)
-
-## Future Content
-
-<!-- TODO: Implement only under the corresponding approved implementation prompt. -->
-
-## TODO
-
-- [ ] Confirm scope against the master architecture.
-- [ ] Implement the required content contract.
-- [ ] Complete technical and editorial review.
-
-## Cross References
-
-- [Master Architecture](../MASTER_ARCHITECTURE.md)
-
-## Acceptance Criteria
-
-- [ ] Required sections are implemented.
-- [ ] Metadata and internal links validate.
-- [ ] Acceptance evidence is recorded.
-
-## References
-
-<!-- TODO: Add registered source IDs when substantive content is authorized. -->
+- [Knowledge Graph](../KNOWLEDGE_GRAPH.md)
