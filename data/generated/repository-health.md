@@ -13,7 +13,7 @@ owner: automation
 
 ## Status
 
-**UNHEALTHY**
+**HEALTHY**
 
 ## Validation Dashboard
 
@@ -21,7 +21,7 @@ owner: automation
 |---|---:|---:|---:|
 | tree | PASS | 0 | 0 |
 | frontmatter | PASS | 0 | 0 |
-| markdown | FAIL | 2 | 0 |
+| markdown | PASS | 0 | 0 |
 | links | PASS | 0 | 0 |
 | mermaid | PASS | 0 | 0 |
 | yaml | PASS | 0 | 0 |

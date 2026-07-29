@@ -18,7 +18,7 @@ description: Master domain directory synthesizing the Open Source Society Univer
 
 ## Domain Overview
 
-`14 Computer Science and Full-Stack Mastery` represents the complete synthesis of classical computer science education (based on the Open Source Society University curriculum) and cutting-edge software engineering disciplines. 
+`14 Computer Science and Full-Stack Mastery` represents the complete synthesis of classical computer science education (based on the Open Source Society University curriculum) and cutting-edge software engineering disciplines.
 
 This domain bridges low-level theory—from automata, discrete math, and computer architecture—to production-grade software engineering across cloud infrastructure, distributed databases, autonomous AI agents, Solana smart contracts, and competitive programming in C++.
 

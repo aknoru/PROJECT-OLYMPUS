@@ -18,7 +18,7 @@ description: Comprehensive curriculum synthesized from the Open Source Society U
 
 ## Module Overview
 
-The **OSSU Computer Science Curriculum** provides a complete undergraduate-level computer science education using world-class courses from MIT, Harvard, UC Berkeley, Stanford, and Princeton. 
+The **OSSU Computer Science Curriculum** provides a complete undergraduate-level computer science education using world-class courses from MIT, Harvard, UC Berkeley, Stanford, and Princeton.
 
 This module structures the entire OSSU track into 7 clear learning pillars:
 

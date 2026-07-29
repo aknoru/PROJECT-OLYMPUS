@@ -20804,8 +20804,8 @@
       "domain": "02-engineering-foundations",
       "id": "02-ENGINEERING-FOUNDATIONS-01-ENGINEERING-MATHEMATICS-README-MD",
       "languages": [
-        "mermaid",
-        "python"
+        "python",
+        "mermaid"
       ],
       "math_count": 8,
       "mermaid_count": 1,
@@ -21325,8 +21325,8 @@
       "domain": "02-engineering-foundations",
       "id": "02-ENGINEERING-FOUNDATIONS-02-NETWORK-THEORY-README-MD",
       "languages": [
-        "mermaid",
-        "python"
+        "python",
+        "mermaid"
       ],
       "math_count": 13,
       "mermaid_count": 1,
@@ -21836,8 +21836,8 @@
       "domain": "02-engineering-foundations",
       "id": "02-ENGINEERING-FOUNDATIONS-03-SIGNALS-AND-SYSTEMS-README-MD",
       "languages": [
-        "mermaid",
-        "python"
+        "python",
+        "mermaid"
       ],
       "math_count": 5,
       "mermaid_count": 1,
@@ -25307,8 +25307,8 @@
       "domain": "02-engineering-foundations",
       "id": "02-ENGINEERING-FOUNDATIONS-10-PROGRAMMING-AND-DATA-STRUCTURES-README-MD",
       "languages": [
-        "mermaid",
-        "c"
+        "c",
+        "mermaid"
       ],
       "math_count": 1,
       "mermaid_count": 1,
@@ -72137,8 +72137,8 @@
       "domain": "14-computer-science-and-fullstack",
       "id": "14-DSA-AND-COMPETITIVE-PROGRAMMING-README-MD",
       "languages": [
-        "mermaid",
-        "cpp"
+        "cpp",
+        "mermaid"
       ],
       "math_count": 17,
       "mermaid_count": 1,
@@ -81659,8 +81659,8 @@
       "domain": "other",
       "id": "MASTER-PROMPT-ORCHESTRATOR",
       "languages": [
-        "text",
         "yaml",
+        "text",
         "markdown"
       ],
       "math_count": 0,
@@ -83506,8 +83506,8 @@
       "domain": "root",
       "id": "MASTER-ARCHITECTURE",
       "languages": [
-        "text",
         "yaml",
+        "text",
         "mermaid",
         "markdown"
       ],

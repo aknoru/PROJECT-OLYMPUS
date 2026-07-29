@@ -18,26 +18,13 @@
       "passed": true
     },
     {
-      "issues": [
-        {
-          "code": "MD006",
-          "message": "Invalid trailing whitespace on line 21.",
-          "path": "14-computer-science-and-fullstack/01-ossu-cs-core/README.md",
-          "severity": "error"
-        },
-        {
-          "code": "MD006",
-          "message": "Invalid trailing whitespace on line 21.",
-          "path": "14-computer-science-and-fullstack/README.md",
-          "severity": "error"
-        }
-      ],
+      "issues": [],
       "metrics": {
         "files": 1101,
         "tables": 354
       },
       "name": "markdown",
-      "passed": false
+      "passed": true
     },
     {
       "issues": [],
@@ -107,12 +94,12 @@
       "passed": true
     }
   ],
-  "generated_at": "2026-07-29T15:56:19.330813+00:00",
+  "generated_at": "2026-07-29T16:19:38.165266+00:00",
   "statistics": {
     "approved_or_released": 259,
     "completion_percentage": 23.52,
     "decision_trees": 149,
-    "generated_at": "2026-07-29T15:56:19.106810+00:00",
+    "generated_at": "2026-07-29T16:19:37.890435+00:00",
     "markdown_files": 1101,
     "markdown_links": 4128,
     "mermaid_diagrams": 191,
@@ -121,12 +108,12 @@
     "tables": 354,
     "word_count": 252531
   },
-  "status": "unhealthy",
+  "status": "healthy",
   "trend_from_previous_generation": {
-    "markdown_files": 7,
-    "markdown_links": 12,
-    "mermaid_diagrams": 10,
-    "tables": 3,
-    "word_count": 5942
+    "markdown_files": 0,
+    "markdown_links": 0,
+    "mermaid_diagrams": 0,
+    "tables": 0,
+    "word_count": 0
   }
 }
