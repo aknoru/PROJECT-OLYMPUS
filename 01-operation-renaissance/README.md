@@ -29,6 +29,7 @@ requirements and constraints before downstream systems are implemented.
 
 | Status | Section | Function |
 |---|---|---|
+| Implemented | [Master Execution Manual](RENAISSANCE_EXECUTION_MANUAL.md) | Consolidated 184-Day Red-Teamed Execution Manual |
 | Implemented | [Quickstart](00-quickstart/README.md) | Launch readiness and baseline |
 | Implemented | [Charter](01-charter/README.md) | Mission, boundaries, contracts, exit |
 | Implemented | [Roadmap](02-roadmap/README.md) | Relative-day phases, gates, capacity |

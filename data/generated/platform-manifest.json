@@ -129,8 +129,8 @@
       "domain": "other",
       "id": "GITHUB-PROJECT-README",
       "languages": [
-        "bash",
-        "text"
+        "text",
+        "bash"
       ],
       "math_count": 0,
       "mermaid_count": 0,
@@ -19409,7 +19409,7 @@
       ],
       "type": "readme",
       "version": "0.1.0",
-      "word_count": 529
+      "word_count": 542
     },
     {
       "code_count": 1,
@@ -19665,6 +19665,408 @@
       "type": "release-candidate",
       "version": "1.0.0-rc.1",
       "word_count": 605
+    },
+    {
+      "code_count": 2,
+      "description": "Consolidated, red-teamed, execution-first 184-day master manual for Project Olympus covering health, technical credibility, flagship RISC-V/RTL project, placement engine, and weekly control loops.",
+      "domain": "01-operation-renaissance",
+      "id": "REN-EXECUTION-MANUAL-V2",
+      "languages": [
+        "text",
+        "mermaid"
+      ],
+      "math_count": 0,
+      "mermaid_count": 1,
+      "owner": "Rounak",
+      "path": "01-operation-renaissance/RENAISSANCE_EXECUTION_MANUAL.md",
+      "reading_time_min": 31,
+      "status": "active",
+      "title": "The 184-Day Renaissance Execution Manual",
+      "toc": [
+        {
+          "level": 1,
+          "slug": "the-184-day-renaissance-execution-manual",
+          "title": "The 184-Day Renaissance Execution Manual"
+        },
+        {
+          "level": 2,
+          "slug": "1-executive-decision",
+          "title": "1. Executive Decision"
+        },
+        {
+          "level": 2,
+          "slug": "2-baseline-and-constraints",
+          "title": "2. Baseline and Constraints"
+        },
+        {
+          "level": 3,
+          "slug": "21-known-baseline",
+          "title": "2.1 Known baseline"
+        },
+        {
+          "level": 3,
+          "slug": "22-important-uncertainty",
+          "title": "2.2 Important uncertainty"
+        },
+        {
+          "level": 3,
+          "slug": "23-safety-boundary",
+          "title": "2.3 Safety boundary"
+        },
+        {
+          "level": 2,
+          "slug": "3-all-31-stated-goals-evaluation",
+          "title": "3. All 31 Stated Goals Evaluation"
+        },
+        {
+          "level": 2,
+          "slug": "4-practical-achievability",
+          "title": "4. Practical Achievability"
+        },
+        {
+          "level": 3,
+          "slug": "41-how-the-percentages-work",
+          "title": "4.1 How the percentages work"
+        },
+        {
+          "level": 3,
+          "slug": "portfolio-wide-estimate",
+          "title": "Portfolio-wide estimate"
+        },
+        {
+          "level": 2,
+          "slug": "5-priority-architecture",
+          "title": "5. Priority Architecture"
+        },
+        {
+          "level": 3,
+          "slug": "tier-0-protect-the-engine",
+          "title": "Tier 0: protect the engine"
+        },
+        {
+          "level": 3,
+          "slug": "tier-1-create-employability-evidence",
+          "title": "Tier 1: create employability evidence"
+        },
+        {
+          "level": 3,
+          "slug": "tier-2-create-opportunity-flow",
+          "title": "Tier 2: create opportunity flow"
+        },
+        {
+          "level": 3,
+          "slug": "tier-3-foundations-only",
+          "title": "Tier 3: foundations only"
+        },
+        {
+          "level": 3,
+          "slug": "park-until-after-day-184",
+          "title": "Park until after Day 184"
+        },
+        {
+          "level": 2,
+          "slug": "6-critical-path-and-dependencies",
+          "title": "6. Critical Path and Dependencies"
+        },
+        {
+          "level": 2,
+          "slug": "7-the-184-day-plan",
+          "title": "7. The 184-Day Plan"
+        },
+        {
+          "level": 3,
+          "slug": "phase-0--pre-flight-2931-july",
+          "title": "Phase 0 \u2014 Pre-flight: 29\u201331 July"
+        },
+        {
+          "level": 3,
+          "slug": "phase-1--stabilise-and-prove-consistency-days-114",
+          "title": "Phase 1 \u2014 Stabilise and prove consistency: Days 1\u201314"
+        },
+        {
+          "level": 3,
+          "slug": "phase-2--foundation-and-first-artifact-days-1542",
+          "title": "Phase 2 \u2014 Foundation and first artifact: Days 15\u201342"
+        },
+        {
+          "level": 3,
+          "slug": "phase-3--flagship-build-and-market-test-days-4392",
+          "title": "Phase 3 \u2014 Flagship build and market test: Days 43\u201392"
+        },
+        {
+          "level": 3,
+          "slug": "phase-4--package-interview-and-iterate-days-93142",
+          "title": "Phase 4 \u2014 Package, interview, and iterate: Days 93\u2013142"
+        },
+        {
+          "level": 3,
+          "slug": "phase-5--conversion-and-handoff-days-143184",
+          "title": "Phase 5 \u2014 Conversion and handoff: Days 143\u2013184"
+        },
+        {
+          "level": 2,
+          "slug": "8-weekly-execution-system",
+          "title": "8. Weekly Execution System"
+        },
+        {
+          "level": 3,
+          "slug": "81-capacity-budget",
+          "title": "8.1 Capacity budget"
+        },
+        {
+          "level": 3,
+          "slug": "82-weekly-cadence",
+          "title": "8.2 Weekly cadence"
+        },
+        {
+          "level": 3,
+          "slug": "83-weekly-control-meeting",
+          "title": "8.3 Weekly control meeting"
+        },
+        {
+          "level": 2,
+          "slug": "9-daily-operating-system",
+          "title": "9. Daily Operating System"
+        },
+        {
+          "level": 3,
+          "slug": "91-standard-day",
+          "title": "9.1 Standard day"
+        },
+        {
+          "level": 3,
+          "slug": "92-minimum-viable-day",
+          "title": "9.2 Minimum viable day"
+        },
+        {
+          "level": 3,
+          "slug": "93-high-capacity-day",
+          "title": "9.3 High-capacity day"
+        },
+        {
+          "level": 2,
+          "slug": "10-learning-and-verification-protocol",
+          "title": "10. Learning and Verification Protocol"
+        },
+        {
+          "level": 3,
+          "slug": "completion-standard",
+          "title": "Completion standard"
+        },
+        {
+          "level": 3,
+          "slug": "ai-use-policy",
+          "title": "AI use policy"
+        },
+        {
+          "level": 2,
+          "slug": "11-flagship-project-specification",
+          "title": "11. Flagship Project Specification"
+        },
+        {
+          "level": 3,
+          "slug": "recommended-project",
+          "title": "Recommended project"
+        },
+        {
+          "level": 3,
+          "slug": "minimum-shippable-version",
+          "title": "Minimum shippable version"
+        },
+        {
+          "level": 3,
+          "slug": "stretch-sequence",
+          "title": "Stretch sequence"
+        },
+        {
+          "level": 3,
+          "slug": "scope-kill-rules",
+          "title": "Scope-kill rules"
+        },
+        {
+          "level": 2,
+          "slug": "12-placement-and-income-engine",
+          "title": "12. Placement and Income Engine"
+        },
+        {
+          "level": 3,
+          "slug": "121-role-family",
+          "title": "12.1 Role family"
+        },
+        {
+          "level": 3,
+          "slug": "122-funnel-metrics",
+          "title": "12.2 Funnel metrics"
+        },
+        {
+          "level": 3,
+          "slug": "123-first-income-strategy",
+          "title": "12.3 First-income strategy"
+        },
+        {
+          "level": 2,
+          "slug": "13-communication-content-and-english",
+          "title": "13. Communication, Content, and English"
+        },
+        {
+          "level": 2,
+          "slug": "14-health-and-recovery-operating-rules",
+          "title": "14. Health and Recovery Operating Rules"
+        },
+        {
+          "level": 3,
+          "slug": "mental-reset-protocol",
+          "title": "Mental reset protocol"
+        },
+        {
+          "level": 2,
+          "slug": "15-financial-reinvestment-order",
+          "title": "15. Financial Reinvestment Order"
+        },
+        {
+          "level": 2,
+          "slug": "16-adaptive-execution-engine",
+          "title": "16. Adaptive Execution Engine"
+        },
+        {
+          "level": 3,
+          "slug": "traffic-light-rules",
+          "title": "Traffic-light rules"
+        },
+        {
+          "level": 2,
+          "slug": "17-fallback-mechanisms",
+          "title": "17. Fallback Mechanisms"
+        },
+        {
+          "level": 2,
+          "slug": "18-kpi-dashboard",
+          "title": "18. KPI Dashboard"
+        },
+        {
+          "level": 3,
+          "slug": "daily",
+          "title": "Daily"
+        },
+        {
+          "level": 3,
+          "slug": "weekly",
+          "title": "Weekly"
+        },
+        {
+          "level": 3,
+          "slug": "day-184-scorecard",
+          "title": "Day-184 scorecard"
+        },
+        {
+          "level": 2,
+          "slug": "19-the-correct-agent-team",
+          "title": "19. The Correct Agent Team"
+        },
+        {
+          "level": 3,
+          "slug": "primary-agent-execution-architect--program-manager",
+          "title": "Primary agent: Execution Architect / Program Manager"
+        },
+        {
+          "level": 3,
+          "slug": "specialist-agent-rtlverification-technical-lead",
+          "title": "Specialist agent: RTL/Verification Technical Lead"
+        },
+        {
+          "level": 3,
+          "slug": "specialist-agent-career-pipeline-analyst",
+          "title": "Specialist agent: Career Pipeline Analyst"
+        },
+        {
+          "level": 3,
+          "slug": "specialist-agent-research-and-opportunity-scout",
+          "title": "Specialist agent: Research and Opportunity Scout"
+        },
+        {
+          "level": 3,
+          "slug": "human-professionals",
+          "title": "Human professionals"
+        },
+        {
+          "level": 3,
+          "slug": "agent-selection-decision",
+          "title": "Agent selection decision"
+        },
+        {
+          "level": 2,
+          "slug": "20-first-seven-days",
+          "title": "20. First Seven Days"
+        },
+        {
+          "level": 3,
+          "slug": "day-1",
+          "title": "Day 1"
+        },
+        {
+          "level": 3,
+          "slug": "day-2",
+          "title": "Day 2"
+        },
+        {
+          "level": 3,
+          "slug": "day-3",
+          "title": "Day 3"
+        },
+        {
+          "level": 3,
+          "slug": "day-4",
+          "title": "Day 4"
+        },
+        {
+          "level": 3,
+          "slug": "day-5",
+          "title": "Day 5"
+        },
+        {
+          "level": 3,
+          "slug": "day-6",
+          "title": "Day 6"
+        },
+        {
+          "level": 3,
+          "slug": "day-7",
+          "title": "Day 7"
+        },
+        {
+          "level": 2,
+          "slug": "21-final-rules",
+          "title": "21. Final Rules"
+        },
+        {
+          "level": 2,
+          "slug": "22-day-184-maximum-achievable-outcome",
+          "title": "22. Day-184 Maximum Achievable Outcome"
+        },
+        {
+          "level": 3,
+          "slug": "most-likely-under-consistent-execution",
+          "title": "Most likely under consistent execution"
+        },
+        {
+          "level": 3,
+          "slug": "optimistic",
+          "title": "Optimistic"
+        },
+        {
+          "level": 3,
+          "slug": "stretch",
+          "title": "Stretch"
+        },
+        {
+          "level": 2,
+          "slug": "closing-directive",
+          "title": "Closing Directive"
+        }
+      ],
+      "type": "campaign-manual",
+      "version": "2.0.0",
+      "word_count": 6200
     },
     {
       "code_count": 0,
@@ -24905,8 +25307,8 @@
       "domain": "02-engineering-foundations",
       "id": "02-ENGINEERING-FOUNDATIONS-10-PROGRAMMING-AND-DATA-STRUCTURES-README-MD",
       "languages": [
-        "mermaid",
-        "c"
+        "c",
+        "mermaid"
       ],
       "math_count": 1,
       "mermaid_count": 1,
@@ -80394,8 +80796,8 @@
       "domain": "other",
       "id": "MASTER-PROMPT-ORCHESTRATOR",
       "languages": [
-        "yaml",
         "text",
+        "yaml",
         "markdown"
       ],
       "math_count": 0,
@@ -82241,8 +82643,8 @@
       "domain": "root",
       "id": "MASTER-ARCHITECTURE",
       "languages": [
-        "yaml",
         "text",
+        "yaml",
         "markdown",
         "mermaid"
       ],
@@ -86818,7 +87220,7 @@
     },
     {
       "code_count": 0,
-      "description": "Reserve the architecture-defined location and content contract for future implementation....",
+      "description": "Standard operational template for defining a 184-day campaign plan, priority architecture, weekly execution system, and fallback rules.",
       "domain": "other",
       "id": "TEMPLATES-PLANNING-CAMPAIGN-PLAN-MD",
       "languages": [],
@@ -86826,69 +87228,54 @@
       "mermaid_count": 0,
       "owner": "project-maintainer",
       "path": "templates/planning/campaign-plan.md",
-      "reading_time_min": 1,
-      "status": "planned",
-      "title": "Campaign Plan",
+      "reading_time_min": 2,
+      "status": "active",
+      "title": "184-Day Campaign Plan Template",
       "toc": [
         {
           "level": 1,
-          "slug": "campaign-plan",
-          "title": "Campaign Plan"
+          "slug": "184-day-campaign-plan-template",
+          "title": "184-Day Campaign Plan Template"
         },
         {
           "level": 2,
-          "slug": "purpose",
-          "title": "Purpose"
+          "slug": "1-executive-mission--scope",
+          "title": "1. Executive Mission & Scope"
         },
         {
           "level": 2,
-          "slug": "status",
-          "title": "Status"
+          "slug": "2-baseline--operational-constraints",
+          "title": "2. Baseline & Operational Constraints"
         },
         {
           "level": 2,
-          "slug": "contents",
-          "title": "Contents"
+          "slug": "3-priority-architecture",
+          "title": "3. Priority Architecture"
         },
         {
           "level": 2,
-          "slug": "dependencies",
-          "title": "Dependencies"
+          "slug": "4-5-phase-execution-sequence",
+          "title": "4. 5-Phase Execution Sequence"
         },
         {
           "level": 2,
-          "slug": "navigation",
-          "title": "Navigation"
+          "slug": "5-weekly-execution-system--capacity-budget",
+          "title": "5. Weekly Execution System & Capacity Budget"
         },
         {
           "level": 2,
-          "slug": "future-content",
-          "title": "Future Content"
+          "slug": "6-traffic-light-control--fallback-rules",
+          "title": "6. Traffic-Light Control & Fallback Rules"
         },
         {
           "level": 2,
-          "slug": "todo",
-          "title": "TODO"
-        },
-        {
-          "level": 2,
-          "slug": "cross-references",
-          "title": "Cross References"
-        },
-        {
-          "level": 2,
-          "slug": "acceptance-criteria",
-          "title": "Acceptance Criteria"
-        },
-        {
-          "level": 2,
-          "slug": "references",
-          "title": "References"
+          "slug": "7-navigation--references",
+          "title": "7. Navigation & References"
         }
       ],
-      "type": "placeholder",
-      "version": "0.1.0",
-      "word_count": 162
+      "type": "template",
+      "version": "2.0.0",
+      "word_count": 460
     },
     {
       "code_count": 0,
@@ -87114,7 +87501,7 @@
     },
     {
       "code_count": 0,
-      "description": "Define the scope, navigation, and placeholder inventory for this directory....",
+      "description": "Standard templates for 184-day campaigns, annual plans, phase plans, monthly plans, weekly reviews, and daily execution.",
       "domain": "other",
       "id": "TEMPLATES-PLANNING-README-MD",
       "languages": [],
@@ -87123,68 +87510,28 @@
       "owner": "project-maintainer",
       "path": "templates/planning/README.md",
       "reading_time_min": 1,
-      "status": "planned",
-      "title": "Planning",
+      "status": "active",
+      "title": "Planning Templates",
       "toc": [
         {
           "level": 1,
-          "slug": "planning",
-          "title": "Planning"
+          "slug": "planning-templates",
+          "title": "Planning Templates"
         },
         {
           "level": 2,
-          "slug": "purpose",
-          "title": "Purpose"
+          "slug": "available-planning-templates",
+          "title": "Available Planning Templates"
         },
         {
           "level": 2,
-          "slug": "status",
-          "title": "Status"
-        },
-        {
-          "level": 2,
-          "slug": "contents",
-          "title": "Contents"
-        },
-        {
-          "level": 2,
-          "slug": "dependencies",
-          "title": "Dependencies"
-        },
-        {
-          "level": 2,
-          "slug": "navigation",
-          "title": "Navigation"
-        },
-        {
-          "level": 2,
-          "slug": "future-content",
-          "title": "Future Content"
-        },
-        {
-          "level": 2,
-          "slug": "todo",
-          "title": "TODO"
-        },
-        {
-          "level": 2,
-          "slug": "cross-references",
-          "title": "Cross References"
-        },
-        {
-          "level": 2,
-          "slug": "acceptance-criteria",
-          "title": "Acceptance Criteria"
-        },
-        {
-          "level": 2,
-          "slug": "references",
-          "title": "References"
+          "slug": "navigation--references",
+          "title": "Navigation & References"
         }
       ],
       "type": "readme",
-      "version": "0.1.0",
-      "word_count": 160
+      "version": "2.0.0",
+      "word_count": 184
     },
     {
       "code_count": 0,
@@ -88418,7 +88765,7 @@
     }
   ],
   "domain_counts": {
-    "01-operation-renaissance": 175,
+    "01-operation-renaissance": 176,
     "02-engineering-foundations": 85,
     "03-fpga-and-digital-design": 64,
     "04-embedded-systems": 64,
@@ -88449,5 +88796,5 @@
   ],
   "generated_at": "tests/README.md",
   "schema_version": "1.0.0",
-  "total_documents": 1093
+  "total_documents": 1094
 }
