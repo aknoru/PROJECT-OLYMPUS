@@ -257,6 +257,31 @@ Outcome
 
 ---
 
+## Path 8 — Computer Science, Full-Stack, AI Engineering & Web3 Mastery
+
+**Goal:** Master classical CS foundations (OSSU), C++ competitive programming, full-stack web architecture, DevOps infrastructure, AI autonomous agents, and Web3/Solana systems.  
+**Duration:** ~24 weeks  
+**Difficulty:** Advanced to Expert  
+**Prerequisites:** Basic programming logic  
+
+```
+Phase 1 — OSSU CS Foundations & C++ DSA (Weeks 1–6)
+├── OSSU CS Core & Math             [14-computer-science-and-fullstack/01-ossu-cs-core/]
+└── C++ DSA & Competitive Prep     [14-computer-science-and-fullstack/02-dsa-and-competitive-programming/]
+        ↓
+Phase 2 — Full-Stack Web Architecture & DevOps (Weeks 7–12)
+├── Full-Stack Web Systems         [14-computer-science-and-fullstack/03-fullstack-web-architecture/]
+└── DevOps & Firecracker MicroVMs  [14-computer-science-and-fullstack/04-devops-cloud-and-infrastructure/]
+        ↓
+Phase 3 — AI Engineering & Autonomous Agents (Weeks 13–18)
+└── PyTorch, RAG, ReAct & MCP      [14-computer-science-and-fullstack/05-ai-engineering-and-agentic-systems/]
+        ↓
+Phase 4 — Web3, Solana Architecture & Smart Contracts (Weeks 19–24)
+└── Cryptography, Rust & Anchor    [14-computer-science-and-fullstack/06-web3-solana-and-decentralized-systems/]
+```
+
+---
+
 ## Recommended Parallel Tracks
 
 These should run **continuously** alongside any primary path:
@@ -280,6 +305,7 @@ These should run **continuously** alongside any primary path:
 | 5 — Software & Tooling | 1–2 h | Continuous | ~200 h |
 | 6 — Research & Grad | 2–3 h | 24 weeks | ~480 h |
 | 7 — Industry Placement | 2–4 h | 12 weeks | ~280 h |
+| 8 — Computer Science & Full-Stack | 4–6 h | 24 weeks | ~800 h |
 
 ---
 

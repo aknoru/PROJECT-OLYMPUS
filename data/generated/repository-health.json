@@ -11,25 +11,38 @@
     {
       "issues": [],
       "metrics": {
-        "files": 1094,
-        "unique_ids": 1094
+        "files": 1101,
+        "unique_ids": 1101
       },
       "name": "frontmatter",
       "passed": true
     },
     {
-      "issues": [],
+      "issues": [
+        {
+          "code": "MD006",
+          "message": "Invalid trailing whitespace on line 21.",
+          "path": "14-computer-science-and-fullstack/01-ossu-cs-core/README.md",
+          "severity": "error"
+        },
+        {
+          "code": "MD006",
+          "message": "Invalid trailing whitespace on line 21.",
+          "path": "14-computer-science-and-fullstack/README.md",
+          "severity": "error"
+        }
+      ],
       "metrics": {
-        "files": 1094,
-        "tables": 351
+        "files": 1101,
+        "tables": 354
       },
       "name": "markdown",
-      "passed": true
+      "passed": false
     },
     {
       "issues": [],
       "metrics": {
-        "internal_links": 4116
+        "internal_links": 4128
       },
       "name": "links",
       "passed": true
@@ -37,7 +50,7 @@
     {
       "issues": [],
       "metrics": {
-        "diagrams": 181
+        "diagrams": 191
       },
       "name": "mermaid",
       "passed": true
@@ -94,26 +107,26 @@
       "passed": true
     }
   ],
-  "generated_at": "2026-07-29T15:16:48.831191+00:00",
+  "generated_at": "2026-07-29T15:56:19.330813+00:00",
   "statistics": {
-    "approved_or_released": 252,
-    "completion_percentage": 23.03,
+    "approved_or_released": 259,
+    "completion_percentage": 23.52,
     "decision_trees": 149,
-    "generated_at": "2026-07-29T15:16:48.570296+00:00",
-    "markdown_files": 1094,
-    "markdown_links": 4116,
-    "mermaid_diagrams": 181,
+    "generated_at": "2026-07-29T15:56:19.106810+00:00",
+    "markdown_files": 1101,
+    "markdown_links": 4128,
+    "mermaid_diagrams": 191,
     "planned": 812,
-    "readme_files": 495,
-    "tables": 351,
-    "word_count": 246589
+    "readme_files": 502,
+    "tables": 354,
+    "word_count": 252531
   },
-  "status": "healthy",
+  "status": "unhealthy",
   "trend_from_previous_generation": {
-    "markdown_files": 1,
-    "markdown_links": 7,
-    "mermaid_diagrams": 1,
-    "tables": 6,
-    "word_count": 5945
+    "markdown_files": 7,
+    "markdown_links": 12,
+    "mermaid_diagrams": 10,
+    "tables": 3,
+    "word_count": 5942
   }
 }

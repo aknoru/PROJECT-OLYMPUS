@@ -251,6 +251,11 @@ Literature & Synthesis
 | Linux & Shell | Embedded Systems | Tool dependency |
 | Git & GitHub | All domains | Tool dependency |
 | Python | Data Analysis, Automation | Foundation |
+| OSSU CS Core | Computer Science & Full-Stack | Foundation |
+| C++ DSA & CP | Competitive Programming | Core |
+| Full-Stack & DevOps | Production Applications | Enables |
+| AI Engineering & Agents | Autonomous Systems | Enables |
+| Web3 & Solana Architecture | Decentralized Systems | Enables |
 
 ---
 
@@ -259,18 +264,19 @@ Literature & Synthesis
 | Domain | Status | Content Available |
 |--------|--------|------------------|
 | 01 Operation Renaissance | ✅ Implemented | Full curriculum |
-| 02 Engineering Foundations | 🔴 Scaffold | READMEs only |
-| 03 FPGA & Digital Design | 🔴 Scaffold | READMEs only |
-| 04 Embedded Systems | 🔴 Scaffold | READMEs only |
-| 05 Computer Architecture | 🔴 Scaffold | READMEs only |
-| 06 Software & Tooling | 🔴 Scaffold | READMEs only |
-| 07 Research & Graduate Study | 🔴 Scaffold | READMEs only |
-| 08 Career & Placement | 🔴 Scaffold | READMEs only |
-| 09 Communication & Leadership | 🔴 Scaffold | READMEs only |
-| 10 Entrepreneurship & Deep Tech | 🔴 Scaffold | READMEs only |
-| 11 Finance, Wealth & Investing | 🔴 Scaffold | READMEs only |
-| 12 Health, Resilience & Performance | 🔴 Scaffold | READMEs only |
-| 13 Legacy & Stewardship | 🔴 Scaffold | READMEs only |
+| 02 Engineering Foundations | ✅ Active | Full curriculum |
+| 03 FPGA & Digital Design | ✅ Active | Full curriculum |
+| 04 Embedded Systems | ✅ Active | Full curriculum |
+| 05 Computer Architecture | ✅ Active | Full curriculum |
+| 06 Software & Tooling | ✅ Active | Full curriculum |
+| 07 Research & Graduate Study | ✅ Active | Full curriculum |
+| 08 Career & Placement | ✅ Active | Full curriculum |
+| 09 Communication & Leadership | ✅ Active | Full curriculum |
+| 10 Entrepreneurship & Deep Tech | ✅ Active | Full curriculum |
+| 11 Finance, Wealth & Investing | ✅ Active | Full curriculum |
+| 12 Health, Resilience & Performance | ✅ Active | Full curriculum |
+| 13 Legacy & Stewardship | ✅ Active | Full curriculum |
+| 14 Computer Science & Full-Stack | ✅ Active | Full curriculum |
 
 ---
 

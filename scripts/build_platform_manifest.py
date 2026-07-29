@@ -36,6 +36,7 @@ DOMAINS = [
     "11-finance-wealth-and-investing",
     "12-health-resilience-and-performance",
     "13-legacy-and-stewardship",
+    "14-computer-science-and-fullstack",
 ]
 
 MATH_INLINE_RE = re.compile(r"\$([^\$\n]+)\$")

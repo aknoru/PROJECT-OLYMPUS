@@ -108,6 +108,19 @@ Full project state is tracked in [`projects/project-registry.yml`](projects/proj
 | CP-03 | Mock Interview Log (20 sessions) | Intermediate | Communication, DSA |
 | CP-04 | Portfolio Website | Intermediate | Markdown, GitHub Pages |
 
+### 14 — Computer Science & Full-Stack Mastery
+
+| # | Project | Difficulty | Skills |
+|---|---------|------------|--------|
+| CS-01 | Codeforces Competitive Programming Platform Clone | Advanced | Next.js 14, Express, Judge Engine, PostgreSQL |
+| CS-02 | High-Frequency Trading & Market Data Dashboard | Advanced | WebSockets, WebRTC, Redis Pub/Sub, TypeScript |
+| CS-03 | Firecracker MicroVM Secure Code Sandbox | Advanced | AWS Firecracker, KVM, Docker, gRPC, Go/Python |
+| CS-04 | Replit Web IDE & Container Infrastructure Clone | Advanced | Kubernetes, Linux Namespaces, Caddy, Node.js |
+| CS-05 | First-Principles Autonomous AI Agent Framework | Advanced | Python, PyTorch, ReAct, Vector DBs, MCP |
+| CS-06 | Devin Autonomous Software Engineer Clone | Expert | Vision-Language Models, Playwright, RL, Evals |
+| CS-07 | Solana Decentralized Exchange (DEX) & CLMM AMM | Expert | Solana, Rust, Anchor, Borsh, SPL Tokens |
+| CS-08 | Non-Custodial Web3 Wallet with MPC & Shamir Secret | Expert | Rust, React Native, MPC, Cryptography |
+
 ---
 
 ## Active Projects

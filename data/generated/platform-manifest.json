@@ -20804,8 +20804,8 @@
       "domain": "02-engineering-foundations",
       "id": "02-ENGINEERING-FOUNDATIONS-01-ENGINEERING-MATHEMATICS-README-MD",
       "languages": [
-        "python",
-        "mermaid"
+        "mermaid",
+        "python"
       ],
       "math_count": 8,
       "mermaid_count": 1,
@@ -21325,8 +21325,8 @@
       "domain": "02-engineering-foundations",
       "id": "02-ENGINEERING-FOUNDATIONS-02-NETWORK-THEORY-README-MD",
       "languages": [
-        "python",
-        "mermaid"
+        "mermaid",
+        "python"
       ],
       "math_count": 13,
       "mermaid_count": 1,
@@ -21836,8 +21836,8 @@
       "domain": "02-engineering-foundations",
       "id": "02-ENGINEERING-FOUNDATIONS-03-SIGNALS-AND-SYSTEMS-README-MD",
       "languages": [
-        "python",
-        "mermaid"
+        "mermaid",
+        "python"
       ],
       "math_count": 5,
       "mermaid_count": 1,
@@ -25307,8 +25307,8 @@
       "domain": "02-engineering-foundations",
       "id": "02-ENGINEERING-FOUNDATIONS-10-PROGRAMMING-AND-DATA-STRUCTURES-README-MD",
       "languages": [
-        "c",
-        "mermaid"
+        "mermaid",
+        "c"
       ],
       "math_count": 1,
       "mermaid_count": 1,
@@ -72001,6 +72001,864 @@
       "word_count": 241
     },
     {
+      "code_count": 2,
+      "description": "Comprehensive curriculum synthesized from the Open Source Society University (OSSU) computer science degree path covering introductory CS, core math, systems, programming languages, theory, compilers, cybersecurity, and advanced distributed systems.",
+      "domain": "14-computer-science-and-fullstack",
+      "id": "14-OSSU-CS-CORE-README-MD",
+      "languages": [
+        "mermaid"
+      ],
+      "math_count": 0,
+      "mermaid_count": 2,
+      "owner": "project-maintainer",
+      "path": "14-computer-science-and-fullstack/01-ossu-cs-core/README.md",
+      "reading_time_min": 5,
+      "status": "active",
+      "title": "OSSU Computer Science Foundations",
+      "toc": [
+        {
+          "level": 1,
+          "slug": "ossu-computer-science-foundations",
+          "title": "OSSU Computer Science Foundations"
+        },
+        {
+          "level": 2,
+          "slug": "module-overview",
+          "title": "Module Overview"
+        },
+        {
+          "level": 2,
+          "slug": "1-intro-cs",
+          "title": "1. Intro CS"
+        },
+        {
+          "level": 3,
+          "slug": "11-computational-thinking-cs50x",
+          "title": "1.1 Computational Thinking (CS50x)"
+        },
+        {
+          "level": 3,
+          "slug": "12-systematic-program-design-how-to-code",
+          "title": "1.2 Systematic Program Design (How to Code)"
+        },
+        {
+          "level": 2,
+          "slug": "2-core-mathematics",
+          "title": "2. Core Mathematics"
+        },
+        {
+          "level": 3,
+          "slug": "21-discrete-mathematics",
+          "title": "2.1 Discrete Mathematics"
+        },
+        {
+          "level": 3,
+          "slug": "22-calculus-single--multivariable",
+          "title": "2.2 Calculus (Single & Multivariable)"
+        },
+        {
+          "level": 3,
+          "slug": "23-linear-algebra",
+          "title": "2.3 Linear Algebra"
+        },
+        {
+          "level": 2,
+          "slug": "3-core-programming--programming-languages",
+          "title": "3. Core Programming & Programming Languages"
+        },
+        {
+          "level": 3,
+          "slug": "31-software-construction--object-oriented-design",
+          "title": "3.1 Software Construction & Object-Oriented Design"
+        },
+        {
+          "level": 3,
+          "slug": "32-programming-language-theory--functional-programming",
+          "title": "3.2 Programming Language Theory & Functional Programming"
+        },
+        {
+          "level": 2,
+          "slug": "4-core-systems",
+          "title": "4. Core Systems"
+        },
+        {
+          "level": 3,
+          "slug": "41-computer-architecture-nand2tetris--risc-v",
+          "title": "4.1 Computer Architecture (Nand2Tetris / RISC-V)"
+        },
+        {
+          "level": 3,
+          "slug": "42-operating-systems",
+          "title": "4.2 Operating Systems"
+        },
+        {
+          "level": 3,
+          "slug": "43-computer-networking",
+          "title": "4.3 Computer Networking"
+        },
+        {
+          "level": 2,
+          "slug": "5-core-theory--compilers",
+          "title": "5. Core Theory & Compilers"
+        },
+        {
+          "level": 3,
+          "slug": "51-automata--computability",
+          "title": "5.1 Automata & Computability"
+        },
+        {
+          "level": 3,
+          "slug": "52-compiler-construction",
+          "title": "5.2 Compiler Construction"
+        },
+        {
+          "level": 2,
+          "slug": "6-core-cybersecurity",
+          "title": "6. Core Cybersecurity"
+        },
+        {
+          "level": 2,
+          "slug": "7-advanced-cs-distributed-systems",
+          "title": "7. Advanced CS: Distributed Systems"
+        },
+        {
+          "level": 2,
+          "slug": "recommended-primary-resources--links",
+          "title": "Recommended Primary Resources & Links"
+        }
+      ],
+      "type": "module-root",
+      "version": "1.0.0",
+      "word_count": 950
+    },
+    {
+      "code_count": 2,
+      "description": "Complete 22-module roadmap covering C++ foundations, advanced data structures, algorithmic paradigms, time/space complexity analysis, graph theory, dynamic programming, and competitive programming techniques.",
+      "domain": "14-computer-science-and-fullstack",
+      "id": "14-DSA-AND-COMPETITIVE-PROGRAMMING-README-MD",
+      "languages": [
+        "mermaid",
+        "cpp"
+      ],
+      "math_count": 17,
+      "mermaid_count": 1,
+      "owner": "project-maintainer",
+      "path": "14-computer-science-and-fullstack/02-dsa-and-competitive-programming/README.md",
+      "reading_time_min": 5,
+      "status": "active",
+      "title": "C++ Data Structures, Algorithms & Competitive Programming",
+      "toc": [
+        {
+          "level": 1,
+          "slug": "c-data-structures-algorithms--competitive-programming",
+          "title": "C++ Data Structures, Algorithms & Competitive Programming"
+        },
+        {
+          "level": 2,
+          "slug": "roadmap-overview",
+          "title": "Roadmap Overview"
+        },
+        {
+          "level": 2,
+          "slug": "22-topic-detailed-syllabus",
+          "title": "22-Topic Detailed Syllabus"
+        },
+        {
+          "level": 3,
+          "slug": "1-introduction-to-c",
+          "title": "1. Introduction to C++"
+        },
+        {
+          "level": 3,
+          "slug": "2-loops-and-pattern-printing",
+          "title": "2. Loops and Pattern Printing"
+        },
+        {
+          "level": 3,
+          "slug": "3-arrays--2d-arrays",
+          "title": "3. Arrays / 2D Arrays"
+        },
+        {
+          "level": 3,
+          "slug": "4-strings",
+          "title": "4. Strings"
+        },
+        {
+          "level": 3,
+          "slug": "5-sorting-and-searching",
+          "title": "5. Sorting and Searching"
+        },
+        {
+          "level": 3,
+          "slug": "6-pointers--pass-by-value-reference--address",
+          "title": "6. Pointers / Pass by Value, Reference & Address"
+        },
+        {
+          "level": 3,
+          "slug": "7-time-and-space-complexity-analysis",
+          "title": "7. Time and Space Complexity Analysis"
+        },
+        {
+          "level": 3,
+          "slug": "8-sets-and-maps",
+          "title": "8. Sets and Maps"
+        },
+        {
+          "level": 3,
+          "slug": "9-prefix-sums--sliding-window--contribution",
+          "title": "9. Prefix Sums / Sliding Window / Contribution"
+        },
+        {
+          "level": 3,
+          "slug": "10-bit-manipulation",
+          "title": "10. Bit Manipulation"
+        },
+        {
+          "level": 3,
+          "slug": "11-number-theory-basics",
+          "title": "11. Number Theory Basics"
+        },
+        {
+          "level": 3,
+          "slug": "12-recursion-and-backtracking",
+          "title": "12. Recursion and Backtracking"
+        },
+        {
+          "level": 3,
+          "slug": "13-two-pointers",
+          "title": "13. Two Pointers"
+        },
+        {
+          "level": 3,
+          "slug": "14-linked-list",
+          "title": "14. Linked List"
+        },
+        {
+          "level": 3,
+          "slug": "15-stack--queue--deque",
+          "title": "15. Stack / Queue / Deque"
+        },
+        {
+          "level": 3,
+          "slug": "16-binary-tree--bst",
+          "title": "16. Binary Tree / BST"
+        },
+        {
+          "level": 3,
+          "slug": "17-priority-queue--heap",
+          "title": "17. Priority Queue / Heap"
+        },
+        {
+          "level": 3,
+          "slug": "18-trie-prefix-tree",
+          "title": "18. Trie (Prefix Tree)"
+        },
+        {
+          "level": 3,
+          "slug": "19-greedy-algorithms",
+          "title": "19. Greedy Algorithms"
+        },
+        {
+          "level": 3,
+          "slug": "20-dynamic-programming-dp",
+          "title": "20. Dynamic Programming (DP)"
+        },
+        {
+          "level": 3,
+          "slug": "21-graph-algorithms",
+          "title": "21. Graph Algorithms"
+        },
+        {
+          "level": 3,
+          "slug": "22-segment-tree--ordered-set",
+          "title": "22. Segment Tree / Ordered Set"
+        },
+        {
+          "level": 2,
+          "slug": "c-code-template-for-competitive-programming",
+          "title": "C++ Code Template for Competitive Programming"
+        },
+        {
+          "level": 2,
+          "slug": "recommended-practice-resources",
+          "title": "Recommended Practice Resources"
+        }
+      ],
+      "type": "module-root",
+      "version": "1.0.0",
+      "word_count": 1058
+    },
+    {
+      "code_count": 2,
+      "description": "Comprehensive full-stack web engineering curriculum covering modern HTML/CSS, JS internals, Node vs Browser runtime, Express, MongoDB, PostgreSQL, Prisma, TypeScript, Turborepo, BunJS, React, Tailwind, Next.js 14, WebSockets, WebRTC, and Redis Pub/Sub.",
+      "domain": "14-computer-science-and-fullstack",
+      "id": "14-FULLSTACK-WEB-ARCHITECTURE-README-MD",
+      "languages": [
+        "mermaid"
+      ],
+      "math_count": 2,
+      "mermaid_count": 2,
+      "owner": "project-maintainer",
+      "path": "14-computer-science-and-fullstack/03-fullstack-web-architecture/README.md",
+      "reading_time_min": 4,
+      "status": "active",
+      "title": "Full-Stack Web Architecture & Systems",
+      "toc": [
+        {
+          "level": 1,
+          "slug": "full-stack-web-architecture--systems",
+          "title": "Full-Stack Web Architecture & Systems"
+        },
+        {
+          "level": 2,
+          "slug": "module-overview",
+          "title": "Module Overview"
+        },
+        {
+          "level": 2,
+          "slug": "16-topic-curriculum-roadmap",
+          "title": "16-Topic Curriculum Roadmap"
+        },
+        {
+          "level": 3,
+          "slug": "1-html--css--modern-layout-systems",
+          "title": "1. HTML / CSS & Modern Layout Systems"
+        },
+        {
+          "level": 3,
+          "slug": "2-js-basics--es6-features",
+          "title": "2. JS Basics & ES6+ Features"
+        },
+        {
+          "level": 3,
+          "slug": "3-js-engine-architecture",
+          "title": "3. JS Engine Architecture"
+        },
+        {
+          "level": 3,
+          "slug": "4-async-javascript",
+          "title": "4. Async JavaScript"
+        },
+        {
+          "level": 3,
+          "slug": "5-nodejs-vs-browser-js-runtime",
+          "title": "5. Node.js vs Browser JS Runtime"
+        },
+        {
+          "level": 3,
+          "slug": "6-http-protocol--expressjs",
+          "title": "6. HTTP Protocol & Express.js"
+        },
+        {
+          "level": 3,
+          "slug": "7-databases--mongodb",
+          "title": "7. Databases & MongoDB"
+        },
+        {
+          "level": 3,
+          "slug": "8-postgres--prisma--drizzle-orm",
+          "title": "8. Postgres + Prisma / Drizzle ORM"
+        },
+        {
+          "level": 3,
+          "slug": "9-typescript-deep-dive",
+          "title": "9. TypeScript Deep Dive"
+        },
+        {
+          "level": 3,
+          "slug": "10-turborepo--monorepo-architecture",
+          "title": "10. Turborepo & Monorepo Architecture"
+        },
+        {
+          "level": 3,
+          "slug": "11-bunjs-runtime",
+          "title": "11. BunJS Runtime"
+        },
+        {
+          "level": 3,
+          "slug": "12-reactjs-internal-architecture",
+          "title": "12. React.js Internal Architecture"
+        },
+        {
+          "level": 3,
+          "slug": "13-tailwindcss--component-design-systems",
+          "title": "13. TailwindCSS & Component Design Systems"
+        },
+        {
+          "level": 3,
+          "slug": "14-nextjs-14-app-router",
+          "title": "14. Next.js 14 App Router"
+        },
+        {
+          "level": 3,
+          "slug": "15-websockets--webrtc",
+          "title": "15. WebSockets & WebRTC"
+        },
+        {
+          "level": 3,
+          "slug": "16-queues--pubsub-systems",
+          "title": "16. Queues & Pub/Sub Systems"
+        },
+        {
+          "level": 2,
+          "slug": "industry-projects-from-image-1-roadmap",
+          "title": "Industry Projects (from Image 1 Roadmap)"
+        },
+        {
+          "level": 2,
+          "slug": "recommended-learning-resources",
+          "title": "Recommended Learning Resources"
+        }
+      ],
+      "type": "module-root",
+      "version": "1.0.0",
+      "word_count": 863
+    },
+    {
+      "code_count": 1,
+      "description": "Comprehensive DevOps curriculum covering Linux/Bash, VMs vs Baremetal, Reverse Proxies, SSL Certs, ASGs/MIGs, OCI Container Runtimes, Docker, Kubernetes, CI/CD, Observability, IaC, CDNs, Object Storage, and MicroVM Sandboxing with AWS Firecracker.",
+      "domain": "14-computer-science-and-fullstack",
+      "id": "14-DEVOPS-CLOUD-AND-INFRASTRUCTURE-README-MD",
+      "languages": [
+        "mermaid"
+      ],
+      "math_count": 0,
+      "mermaid_count": 1,
+      "owner": "project-maintainer",
+      "path": "14-computer-science-and-fullstack/04-devops-cloud-and-infrastructure/README.md",
+      "reading_time_min": 4,
+      "status": "active",
+      "title": "DevOps, Cloud Native & Systems Infrastructure",
+      "toc": [
+        {
+          "level": 1,
+          "slug": "devops-cloud-native--systems-infrastructure",
+          "title": "DevOps, Cloud Native & Systems Infrastructure"
+        },
+        {
+          "level": 2,
+          "slug": "module-overview",
+          "title": "Module Overview"
+        },
+        {
+          "level": 2,
+          "slug": "14-topic-infrastructure-roadmap",
+          "title": "14-Topic Infrastructure Roadmap"
+        },
+        {
+          "level": 3,
+          "slug": "1-bash--terminal-mastery--shell-scripting",
+          "title": "1. Bash / Terminal Mastery & Shell Scripting"
+        },
+        {
+          "level": 3,
+          "slug": "2-vms-vs-baremetal-machines",
+          "title": "2. VMs vs Baremetal Machines"
+        },
+        {
+          "level": 3,
+          "slug": "3-process-management--reverse-proxies",
+          "title": "3. Process Management & Reverse Proxies"
+        },
+        {
+          "level": 3,
+          "slug": "4-certificates--cert-management",
+          "title": "4. Certificates & Cert Management"
+        },
+        {
+          "level": 3,
+          "slug": "5-auto-scaling-groups-asgs--managed-instance-groups-migs",
+          "title": "5. Auto-Scaling Groups (ASGs) & Managed Instance Groups (MIGs)"
+        },
+        {
+          "level": 3,
+          "slug": "6-containers--container-runtimes",
+          "title": "6. Containers & Container Runtimes"
+        },
+        {
+          "level": 3,
+          "slug": "7-docker-deep-dive",
+          "title": "7. Docker Deep Dive"
+        },
+        {
+          "level": 3,
+          "slug": "8-kubernetes-part-1-architecture--workloads",
+          "title": "8. Kubernetes Part 1: Architecture & Workloads"
+        },
+        {
+          "level": 3,
+          "slug": "9-kubernetes-part-2-advanced-networking--ingress",
+          "title": "9. Kubernetes Part 2: Advanced Networking & Ingress"
+        },
+        {
+          "level": 3,
+          "slug": "10-cicd-pipelines",
+          "title": "10. CI/CD Pipelines"
+        },
+        {
+          "level": 3,
+          "slug": "11-monitoring--observability",
+          "title": "11. Monitoring & Observability"
+        },
+        {
+          "level": 3,
+          "slug": "12-infrastructure-as-code-iac",
+          "title": "12. Infrastructure as Code (IaC)"
+        },
+        {
+          "level": 3,
+          "slug": "13-cdns--object-stores",
+          "title": "13. CDNs & Object Stores"
+        },
+        {
+          "level": 3,
+          "slug": "14-microvm-sandboxing--aws-firecracker",
+          "title": "14. MicroVM Sandboxing & AWS Firecracker"
+        },
+        {
+          "level": 2,
+          "slug": "infrastructure-projects-from-image-2-roadmap",
+          "title": "Infrastructure Projects (from Image 2 Roadmap)"
+        },
+        {
+          "level": 2,
+          "slug": "technical-resources--engineering-blogs",
+          "title": "Technical Resources & Engineering Blogs"
+        }
+      ],
+      "type": "module-root",
+      "version": "1.0.0",
+      "word_count": 728
+    },
+    {
+      "code_count": 2,
+      "description": "Comprehensive AI Engineering curriculum covering PyTorch, Transformers, Attention variations (MQA, GQA, MLA, FlashAttention), RAG, Vector DBs, First-Principles AI Agents, Agent Frameworks, Memory, Model Context Protocol (MCP), Fine-tuning (LoRA, QLoRA), RLHF/GRPO, Evals, and Multimodal Agents.",
+      "domain": "14-computer-science-and-fullstack",
+      "id": "14-AI-ENGINEERING-AND-AGENTIC-SYSTEMS-README-MD",
+      "languages": [
+        "mermaid"
+      ],
+      "math_count": 6,
+      "mermaid_count": 2,
+      "owner": "project-maintainer",
+      "path": "14-computer-science-and-fullstack/05-ai-engineering-and-agentic-systems/README.md",
+      "reading_time_min": 5,
+      "status": "active",
+      "title": "AI Engineering, Applied LLMs & Autonomous Agents",
+      "toc": [
+        {
+          "level": 1,
+          "slug": "ai-engineering-applied-llms--autonomous-agents",
+          "title": "AI Engineering, Applied LLMs & Autonomous Agents"
+        },
+        {
+          "level": 2,
+          "slug": "module-overview",
+          "title": "Module Overview"
+        },
+        {
+          "level": 2,
+          "slug": "20-topic-ai-engineering-roadmap",
+          "title": "20-Topic AI Engineering Roadmap"
+        },
+        {
+          "level": 3,
+          "slug": "1-history-of-ai-from-perceptrons-to-transformers",
+          "title": "1. History of AI: From Perceptrons to Transformers"
+        },
+        {
+          "level": 3,
+          "slug": "2-deep-learning-fundamentals-backprop--nlp",
+          "title": "2. Deep Learning Fundamentals: Backprop & NLP"
+        },
+        {
+          "level": 3,
+          "slug": "3-neural-networks-with-pytorch",
+          "title": "3. Neural Networks with PyTorch"
+        },
+        {
+          "level": 3,
+          "slug": "4-optional-extra-class-sequential-models-rnns-lstms-grus",
+          "title": "4. Optional Extra Class: Sequential Models (RNNs, LSTMs, GRUs)"
+        },
+        {
+          "level": 3,
+          "slug": "5-optional-extra-class-convolutional-neural-networks-cnns",
+          "title": "5. Optional Extra Class: Convolutional Neural Networks (CNNs)"
+        },
+        {
+          "level": 3,
+          "slug": "6-coding-simple-attention-from-scratch",
+          "title": "6. Coding Simple Attention from Scratch"
+        },
+        {
+          "level": 3,
+          "slug": "7-vanilla-attention-to-industry-variants--optimizations",
+          "title": "7. Vanilla Attention to Industry Variants & Optimizations"
+        },
+        {
+          "level": 3,
+          "slug": "8-hugging-face-ecosystem-end-to-end",
+          "title": "8. Hugging Face Ecosystem End-to-End"
+        },
+        {
+          "level": 3,
+          "slug": "9-instrumenting-llm-calls-observability--tracing",
+          "title": "9. Instrumenting LLM Calls, Observability & Tracing"
+        },
+        {
+          "level": 3,
+          "slug": "10-vector-databases--rag-architecture",
+          "title": "10. Vector Databases & RAG Architecture"
+        },
+        {
+          "level": 3,
+          "slug": "11-context-engineering",
+          "title": "11. Context Engineering"
+        },
+        {
+          "level": 3,
+          "slug": "12-building-ai-agents-from-first-principles",
+          "title": "12. Building AI Agents from First Principles"
+        },
+        {
+          "level": 3,
+          "slug": "13-agent-frameworks",
+          "title": "13. Agent Frameworks"
+        },
+        {
+          "level": 3,
+          "slug": "14-agent-memory-frameworks",
+          "title": "14. Agent Memory Frameworks"
+        },
+        {
+          "level": 3,
+          "slug": "15-model-context-protocol-mcp",
+          "title": "15. Model Context Protocol (MCP)"
+        },
+        {
+          "level": 3,
+          "slug": "16-computer-use--multimodal-agents",
+          "title": "16. Computer Use & Multimodal Agents"
+        },
+        {
+          "level": 3,
+          "slug": "17-what-is-model-finetuning",
+          "title": "17. What is Model Finetuning?"
+        },
+        {
+          "level": 3,
+          "slug": "18-finetuning-an-llm-for-any-use-case",
+          "title": "18. Finetuning an LLM for Any Use Case"
+        },
+        {
+          "level": 3,
+          "slug": "19-reinforcement-learning-fine-tuning--evals",
+          "title": "19. Reinforcement Learning Fine-Tuning & Evals"
+        },
+        {
+          "level": 3,
+          "slug": "20-advanced-multimodal-tangents",
+          "title": "20. Advanced Multimodal Tangents"
+        },
+        {
+          "level": 2,
+          "slug": "agentic-ai-projects-from-image-3-roadmap",
+          "title": "Agentic AI Projects (from Image 3 Roadmap)"
+        },
+        {
+          "level": 2,
+          "slug": "recommended-learning-resources",
+          "title": "Recommended Learning Resources"
+        }
+      ],
+      "type": "module-root",
+      "version": "1.0.0",
+      "word_count": 985
+    },
+    {
+      "code_count": 1,
+      "description": "Comprehensive Web3 engineering curriculum covering Blockchains, Cryptography, Solana Architecture, Sealevel Parallel Runtime, Program Derived Addresses (PDAs), SPL Tokens, Rust, Anchor Framework, DeFi (AMM/CLMM), Indexing, and MPC.",
+      "domain": "14-computer-science-and-fullstack",
+      "id": "14-WEB3-SOLANA-AND-DECENTRALIZED-SYSTEMS-README-MD",
+      "languages": [
+        "mermaid"
+      ],
+      "math_count": 2,
+      "mermaid_count": 1,
+      "owner": "project-maintainer",
+      "path": "14-computer-science-and-fullstack/06-web3-solana-and-decentralized-systems/README.md",
+      "reading_time_min": 4,
+      "status": "active",
+      "title": "Web3, Solana Architecture & Smart Contracts",
+      "toc": [
+        {
+          "level": 1,
+          "slug": "web3-solana-architecture--smart-contracts",
+          "title": "Web3, Solana Architecture & Smart Contracts"
+        },
+        {
+          "level": 2,
+          "slug": "module-overview",
+          "title": "Module Overview"
+        },
+        {
+          "level": 2,
+          "slug": "18-topic-web3--solana-roadmap",
+          "title": "18-Topic Web3 & Solana Roadmap"
+        },
+        {
+          "level": 3,
+          "slug": "1-introduction-to-blockchains",
+          "title": "1. Introduction to Blockchains"
+        },
+        {
+          "level": 3,
+          "slug": "2-cryptography-for-web3",
+          "title": "2. Cryptography for Web3"
+        },
+        {
+          "level": 3,
+          "slug": "3-solana-architecture--proof-of-history-poh",
+          "title": "3. Solana Architecture & Proof of History (PoH)"
+        },
+        {
+          "level": 3,
+          "slug": "4-solana-terminology--ownership-model",
+          "title": "4. Solana Terminology & Ownership Model"
+        },
+        {
+          "level": 3,
+          "slug": "5-program-derived-addresses-pdas",
+          "title": "5. Program Derived Addresses (PDAs)"
+        },
+        {
+          "level": 3,
+          "slug": "6-client-libraries-solanaweb3js--gill",
+          "title": "6. Client Libraries (`@solana/web3.js` & Gill)"
+        },
+        {
+          "level": 3,
+          "slug": "7-solana-wallet-adapter",
+          "title": "7. Solana Wallet Adapter"
+        },
+        {
+          "level": 3,
+          "slug": "8-solana-data-model--serialization",
+          "title": "8. Solana Data Model & Serialization"
+        },
+        {
+          "level": 3,
+          "slug": "9-token-program--spl-tokens",
+          "title": "9. Token Program & SPL Tokens"
+        },
+        {
+          "level": 3,
+          "slug": "10-decentralized-finance-defi-architecture",
+          "title": "10. Decentralized Finance (DeFi) Architecture"
+        },
+        {
+          "level": 3,
+          "slug": "11-rust-fundamentals",
+          "title": "11. Rust Fundamentals"
+        },
+        {
+          "level": 3,
+          "slug": "12-advanced-rust",
+          "title": "12. Advanced Rust"
+        },
+        {
+          "level": 3,
+          "slug": "13-anchor-framework",
+          "title": "13. Anchor Framework"
+        },
+        {
+          "level": 3,
+          "slug": "14-common-smart-contract-patterns",
+          "title": "14. Common Smart Contract Patterns"
+        },
+        {
+          "level": 3,
+          "slug": "15-on-chain--off-chain-indexing",
+          "title": "15. On-Chain & Off-Chain Indexing"
+        },
+        {
+          "level": 3,
+          "slug": "16-multi-party-computation-mpc--shamirs-secret-sharing",
+          "title": "16. Multi-Party Computation (MPC) & Shamir's Secret Sharing"
+        },
+        {
+          "level": 3,
+          "slug": "17-ad-hoc-web2--web3-hybrid-architectures",
+          "title": "17. Ad-Hoc Web2 + Web3 Hybrid Architectures"
+        },
+        {
+          "level": 3,
+          "slug": "18-partially-centralized-contracts--governance",
+          "title": "18. Partially Centralized Contracts & Governance"
+        },
+        {
+          "level": 2,
+          "slug": "web3--decentralized-projects-from-image-4-roadmap",
+          "title": "Web3 & Decentralized Projects (from Image 4 Roadmap)"
+        },
+        {
+          "level": 2,
+          "slug": "recommended-learning-resources",
+          "title": "Recommended Learning Resources"
+        }
+      ],
+      "type": "module-root",
+      "version": "1.0.0",
+      "word_count": 833
+    },
+    {
+      "code_count": 1,
+      "description": "Master domain directory synthesizing the Open Source Society University (OSSU) Computer Science core curriculum with modern industry roadmaps across Full-Stack Architecture, DevOps, AI Engineering, Web3/Solana Systems, and C++ Data Structures & Algorithms.",
+      "domain": "14-computer-science-and-fullstack",
+      "id": "14-COMPUTER-SCIENCE-AND-FULLSTACK-README-MD",
+      "languages": [
+        "mermaid"
+      ],
+      "math_count": 0,
+      "mermaid_count": 1,
+      "owner": "project-maintainer",
+      "path": "14-computer-science-and-fullstack/README.md",
+      "reading_time_min": 3,
+      "status": "active",
+      "title": "14 Computer Science and Full-Stack Mastery",
+      "toc": [
+        {
+          "level": 1,
+          "slug": "14-computer-science-and-full-stack-mastery",
+          "title": "14 Computer Science and Full-Stack Mastery"
+        },
+        {
+          "level": 2,
+          "slug": "domain-overview",
+          "title": "Domain Overview"
+        },
+        {
+          "level": 2,
+          "slug": "directory-modules--curriculum-index",
+          "title": "Directory Modules & Curriculum Index"
+        },
+        {
+          "level": 2,
+          "slug": "registered-engineering-projects",
+          "title": "Registered Engineering Projects"
+        },
+        {
+          "level": 2,
+          "slug": "navigation--cross-references",
+          "title": "Navigation & Cross-References"
+        }
+      ],
+      "type": "domain-root",
+      "version": "1.0.0",
+      "word_count": 671
+    },
+    {
       "code_count": 1,
       "description": "Preserve the exact Project Olympus instruction as a version-controlled project asset....",
       "domain": "other",
@@ -80640,7 +81498,7 @@
       ],
       "type": "knowledge-map",
       "version": "1.0.0",
-      "word_count": 975
+      "word_count": 1043
     },
     {
       "code_count": 0,
@@ -80712,7 +81570,7 @@
       "word_count": 989
     },
     {
-      "code_count": 7,
+      "code_count": 8,
       "description": "Structured, dependency-aware learning paths through all Project Olympus domains.",
       "domain": "root",
       "id": "LEARNING-PATHS",
@@ -80721,7 +81579,7 @@
       "mermaid_count": 0,
       "owner": "project-maintainer",
       "path": "LEARNING_PATHS.md",
-      "reading_time_min": 6,
+      "reading_time_min": 7,
       "status": "active",
       "title": "Learning Paths",
       "toc": [
@@ -80772,6 +81630,11 @@
         },
         {
           "level": 2,
+          "slug": "path-8--computer-science-full-stack-ai-engineering--web3-mastery",
+          "title": "Path 8 \u2014 Computer Science, Full-Stack, AI Engineering & Web3 Mastery"
+        },
+        {
+          "level": 2,
           "slug": "recommended-parallel-tracks",
           "title": "Recommended Parallel Tracks"
         },
@@ -80788,7 +81651,7 @@
       ],
       "type": "learning-map",
       "version": "1.0.0",
-      "word_count": 1197
+      "word_count": 1343
     },
     {
       "code_count": 69,
@@ -82645,8 +83508,8 @@
       "languages": [
         "text",
         "yaml",
-        "markdown",
-        "mermaid"
+        "mermaid",
+        "markdown"
       ],
       "math_count": 0,
       "mermaid_count": 8,
@@ -83155,7 +84018,7 @@
       "mermaid_count": 0,
       "owner": "project-maintainer",
       "path": "PROJECT_INDEX.md",
-      "reading_time_min": 4,
+      "reading_time_min": 5,
       "status": "active",
       "title": "Project Index",
       "toc": [
@@ -83215,6 +84078,11 @@
           "title": "08 \u2014 Career & Placement"
         },
         {
+          "level": 3,
+          "slug": "14--computer-science--full-stack-mastery",
+          "title": "14 \u2014 Computer Science & Full-Stack Mastery"
+        },
+        {
           "level": 2,
           "slug": "active-projects",
           "title": "Active Projects"
@@ -83242,7 +84110,7 @@
       ],
       "type": "index",
       "version": "1.0.0",
-      "word_count": 840
+      "word_count": 1006
     },
     {
       "code_count": 0,
@@ -83979,7 +84847,7 @@
       ],
       "type": "readme",
       "version": "1.2.0",
-      "word_count": 564
+      "word_count": 587
     },
     {
       "code_count": 0,
@@ -88777,7 +89645,8 @@
     "10-entrepreneurship-and-deep-tech": 64,
     "11-finance-wealth-and-investing": 50,
     "12-health-resilience-and-performance": 50,
-    "13-legacy-and-stewardship": 43
+    "13-legacy-and-stewardship": 43,
+    "14-computer-science-and-fullstack": 7
   },
   "domains": [
     "01-operation-renaissance",
@@ -88792,9 +89661,10 @@
     "10-entrepreneurship-and-deep-tech",
     "11-finance-wealth-and-investing",
     "12-health-resilience-and-performance",
-    "13-legacy-and-stewardship"
+    "13-legacy-and-stewardship",
+    "14-computer-science-and-fullstack"
   ],
   "generated_at": "tests/README.md",
   "schema_version": "1.0.0",
-  "total_documents": 1094
+  "total_documents": 1101
 }

@@ -42,6 +42,7 @@ Project Olympus is a Markdown-native Engineering Operating System spanning 13 pr
 | [`11 Finance Wealth & Investing`](11-finance-wealth-and-investing/README.md) | Cash Flow, Risk, Indexing, Taxes, Capital Allocation | 7 Modules | ✅ Active |
 | [`12 Health Resilience & Performance`](12-health-resilience-and-performance/README.md) | Sleep Engine, Fitness, Nutrition, Ergonomics, Recovery | 7 Modules | ✅ Active |
 | [`13 Legacy & Stewardship`](13-legacy-and-stewardship/README.md) | Ethics, Technical Mentorship, Open-Source Preservation | 6 Modules | ✅ Active |
+| [`14 Computer Science & Full-Stack`](14-computer-science-and-fullstack/README.md) | OSSU CS, C++ DSA, Full-Stack, DevOps, AI Agents, Web3 | 6 Modules | ✅ Active |
 
 ---
 

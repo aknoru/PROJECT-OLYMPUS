@@ -13,7 +13,7 @@ owner: automation
 
 ## Status
 
-**HEALTHY**
+**UNHEALTHY**
 
 ## Validation Dashboard
 
@@ -21,7 +21,7 @@ owner: automation
 |---|---:|---:|---:|
 | tree | PASS | 0 | 0 |
 | frontmatter | PASS | 0 | 0 |
-| markdown | PASS | 0 | 0 |
+| markdown | FAIL | 2 | 0 |
 | links | PASS | 0 | 0 |
 | mermaid | PASS | 0 | 0 |
 | yaml | PASS | 0 | 0 |
@@ -33,15 +33,15 @@ owner: automation
 
 ## Coverage Dashboard
 
-- Approved, active, complete, released, generated, or example coverage: **23.03%**.
+- Approved, active, complete, released, generated, or example coverage: **23.52%**.
 - Planned Markdown artifacts: **812**.
 
 ## Repository Metrics Dashboard
 
-- Markdown files: **1094**.
-- Words: **246589**.
-- Mermaid diagrams: **181**.
-- Markdown links: **4116**.
+- Markdown files: **1101**.
+- Words: **252531**.
+- Mermaid diagrams: **191**.
+- Markdown links: **4128**.
 
 ## Technical Debt Dashboard
 
