@@ -1,9 +1,10 @@
-name: Deploy Project Olympus Web Platform to GitHub Pages
+name: Deploy OLYMPUS Engineering OS to GitHub Pages
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -15,46 +16,44 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Full history for git-revision-date plugin
 
-      - name: Setup Python
+      - name: Setup Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'requirements.txt'
 
-      - name: Install Python Dependencies & Validate Repo
+      - name: Install MkDocs dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          python scripts/validate_repository.py
-          python scripts/build_platform_manifest.py
+          pip install "mkdocs-material>=9.5,<10" "pymdown-extensions>=10" "pygments>=2.16"
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+      - name: Build MkDocs site
+        run: python -m mkdocs build --strict --verbose
 
-      - name: Install Frontend Dependencies & Export Static Site
-        working-directory: apps/frontend
-        run: |
-          npm install
-          npm run build
-
-      - name: Setup Pages
+      - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload Pages Artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'apps/frontend/out'
+          path: site
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

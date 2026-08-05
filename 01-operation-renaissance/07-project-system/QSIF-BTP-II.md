@@ -356,6 +356,7 @@ Before implementing QSIF, complete:
 ## Related Documents
 
 - [Project System](README.md) — All projects overview
-- [Research System](../../08-research-system/README.md) — Research methodology
-- [184-Day Structure](../../02-roadmap/184-DAY-STRUCTURE.md) — Timeline context
-- [Goals](../../01-charter/GOALS.md) — Goal 16 (Research) and Goal 15 (Engineering Projects)
+- [Research System](../08-research-system/README.md) — Research methodology
+- [184-Day Structure](../02-roadmap/184-DAY-STRUCTURE.md) — Timeline context
+- [Goals](../01-charter/GOALS.md) — Goal 16 (Research) and Goal 15 (Engineering Projects)
+

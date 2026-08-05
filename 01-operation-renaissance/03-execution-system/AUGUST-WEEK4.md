@@ -247,4 +247,5 @@ period: "August 24–31, 2026"
 
 - [← Week 3](AUGUST-WEEK3.md)
 - [← August Battle Plan](AUGUST-BATTLE-PLAN.md)
-- [→ September Plan](../../02-roadmap/184-DAY-STRUCTURE.md)
+- [→ September Plan](../02-roadmap/184-DAY-STRUCTURE.md)
+

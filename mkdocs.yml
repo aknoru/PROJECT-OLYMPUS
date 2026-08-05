@@ -1,5 +1,5 @@
-site_name: Project Olympus
-site_description: Markdown-native Engineering Operating System
+site_name: "OLYMPUS · Engineering OS"
+site_description: "A world-class Second Brain and Engineering Operating System for becoming a Renaissance Engineer in 184 days."
 site_url: https://aknoru.github.io/PROJECT-OLYMPUS/
 repo_name: aknoru/PROJECT-OLYMPUS
 repo_url: https://github.com/aknoru/PROJECT-OLYMPUS
@@ -7,65 +7,133 @@ edit_uri: edit/main/docs/
 docs_dir: docs
 exclude_docs: |
   README.md
+
 theme:
   name: material
+  font:
+    text: Inter
+    code: JetBrains Mono
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   features:
     - navigation.instant
-    - navigation.sections
+    - navigation.instant.progress
+    - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
     - navigation.top
+    - navigation.indexes
     - search.highlight
     - search.suggest
+    - search.share
     - content.code.copy
+    - content.code.annotate
     - content.action.edit
+    - content.tooltips
+    - announce.dismiss
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
+      accent: deep purple
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - footnotes
   - tables
   - toc:
       permalink: true
+      toc_depth: 3
   - pymdownx.details
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 plugins:
-  - search
+  - search:
+      lang: en
+  - tags
+
 extra_css:
+  - https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap
   - stylesheets/olympus.css
+
 extra_javascript:
   - javascripts/olympus.js
+
 validation:
   links:
     not_found: ignore
+  nav:
+    omitted_files: info
+
 nav:
-  - Command Center: index.md
-  - Execute:
+  - "⚡ Command Center": index.md
+
+  - "🏛 Executive":
+      - Mission & Vision: mission.md
+      - Goals (31): goals.md
+      - Master Roadmap: roadmap-master.md
+      - Projects (35+): projects.md
+      - Life OS: user-guide.md
+
+  - "📊 Dashboards":
+      - Engineering: engineering-dashboard.md
+      - Career: career-dashboard.md
+      - Health: health-dashboard.md
+      - Learning: learning-dashboard.md
+      - Finance: finance-dashboard.md
+      - AI & ML: ai-dashboard.md
+      - Research: research-dashboard.md
+      - Weekly Review: weekly-review.md
+      - Monthly Review: monthly-review.md
+
+  - "🤖 AI System":
+      - AI Prompts Library: ai-prompts.md
+
+  - "⚡ Execute":
       - Start Today: quickstart.md
       - Review Cadence: lifecycle.md
-      - Recovery: appendices.md
-  - Explore:
+      - Recovery Protocol: appendices.md
+
+  - "🗺️ Navigate":
       - Repository Map: navigation.md
       - System Model: system-model.md
       - Architecture: architecture.md
-  - Maintain:
+      - FAQ: faq.md
+
+  - "🔧 Maintain":
       - Repository Health: repository-health.md
       - Repository Statistics: repository-statistics.md
       - Reports: reports.md
       - Architecture Decisions: adrs.md
       - Migration Guide: migration-guide.md
-      - FAQ: faq.md
