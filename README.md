@@ -91,3 +91,44 @@ mkdocs serve
 - Master Architecture Specification: [`MASTER_ARCHITECTURE.md`](MASTER_ARCHITECTURE.md)
 - Governance Policies & ADRs: [`governance/`](governance/README.md)
 - License: [`LICENSE`](LICENSE) and [`CITATION.cff`](CITATION.cff)
+
+---
+
+## Life Operating System
+
+This repository now contains a fully integrated **Life OS** — the operational brain for a 184-day personal renaissance. The architecture of PROJECT-OLYMPUS is the scaffold; OLYMPUS is the content.
+
+> **Start here if you are Rounak:** [LIFE-OS.md](LIFE-OS.md)
+
+### Entry Points by Intent
+
+| If you want to... | Go to... |
+|---|---|
+| Start your day | [Daily Dashboard](dashboards/DAILY-DASHBOARD.md) |
+| Review your week | [Weekly Dashboard](dashboards/WEEKLY-DASHBOARD.md) |
+| See this month's battle plan | [August Battle Plan](01-operation-renaissance/03-execution-system/AUGUST-BATTLE-PLAN.md) |
+| Check your KPIs | [KPI Dashboard](dashboards/KPI-DASHBOARD.md) |
+| Remember why you are doing this | [Identity Manifesto](private/identity/IDENTITY-MANIFESTO.md) |
+| See all 31 goals | [Goals](01-operation-renaissance/01-charter/GOALS.md) |
+| See all 27 targets | [Targets](01-operation-renaissance/01-charter/TARGETS.md) |
+| See the 184-day plan | [184-Day Structure](01-operation-renaissance/02-roadmap/184-DAY-STRUCTURE.md) |
+| Find books and courses | [Resource Directory](references/RESOURCE-DIRECTORY.md) |
+
+### OLYMPUS Integration (August 2026)
+
+The following content was integrated from OLYMPUS (the operational brain) into this repository:
+
+| Source | Destination |
+|---|---|
+| OLYMPUS/184DAYS | [184-DAY-STRUCTURE.md](01-operation-renaissance/02-roadmap/184-DAY-STRUCTURE.md) |
+| OLYMPUS/TARGETS | [TARGETS.md](01-operation-renaissance/01-charter/TARGETS.md) |
+| OLYMPUS/GOALS | [GOALS.md](01-operation-renaissance/01-charter/GOALS.md) |
+| OLYMPUS/EXECUTE | [RENAISSANCE_EXECUTION_MANUAL.md](01-operation-renaissance/RENAISSANCE_EXECUTION_MANUAL.md) |
+| OLYMPUS/AUGUST + WEEK1-4 | [03-execution-system/](01-operation-renaissance/03-execution-system/) |
+| OLYMPUS/CAREER | [06-placement-system/](01-operation-renaissance/06-placement-system/) |
+| OLYMPUS/EXAM | [05-gate-system/](01-operation-renaissance/05-gate-system/) |
+| OLYMPUS/BTP-II | [QSIF-BTP-II.md](01-operation-renaissance/07-project-system/QSIF-BTP-II.md) |
+| OLYMPUS/PSYCH | [private/psychology/](private/psychology/) |
+| OLYMPUS/CHESS & JAPANESE | [private/identity/](private/identity/) |
+| OLYMPUS/RESOURCES | [RESOURCE-DIRECTORY.md](references/RESOURCE-DIRECTORY.md) |
+

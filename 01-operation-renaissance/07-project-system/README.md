@@ -97,3 +97,71 @@ Evaluate candidate ideas with Project Selection.
 
 - [x] Inputs, evidence, decisions, and recovery are explicit.
 - [x] No company, salary, interview question, or hiring statistic is hardcoded.
+
+---
+
+## Active Projects (Operational — Rounak)
+
+### Project 1: RVS Accelerator (BTP-I)
+
+**Status:** In Progress — Target completion: August 16, 2026
+**Type:** FPGA/RTL Hardware — B.Tech Project I
+**Description:** Rotation Vector Sum Accelerator implemented in Verilog. A parameterizable hardware accelerator that computes the sum of spatially rotated vectors efficiently.
+
+| Element | Value |
+|---|---|
+| Repository | `github.com/rounak/rvs-accelerator` |
+| Language | Verilog |
+| Platform | Icarus Verilog / ModelSim |
+| Target | Single demo, documented with architecture diagram + testbench |
+| Portfolio value | RTL design, FPGA synthesis, hardware verification |
+
+**Modules:**
+- MAC Array (8×8, parameterizable)
+- Rotation Matrix Generator
+- Control Logic (FSM)
+- Memory Interface (Block RAM)
+
+**Milestones:**
+| Day | Milestone |
+|---|---|
+| Aug 5 | GitHub setup, spec written |
+| Aug 9 | MAC + Rotation + Control + Memory coded |
+| Aug 16 | RVS complete: verified, documented, published |
+| Aug 19 | Pipelined version |
+| Aug 21 | Fixed-point quantization |
+| Aug 23 | Research abstract written |
+
+---
+
+### Project 2: QSIF — Quantum-Inspired Spatial Intelligence Fabric (BTP-II)
+
+**Status:** Concept Complete — FPGA implementation starting Phase 3
+**Type:** Research project — B.Tech Project II
+**Description:** A geometry-, physics-, and probability-native edge computing platform for autonomous cyber-physical systems.
+
+See full specification: [QSIF-BTP-II.md](QSIF-BTP-II.md)
+
+| Element | Value |
+|---|---|
+| Category | Edge AI, FPGA, Spatial Computing |
+| Novelty | Quantum math + Spatial graphs + FPGA (no prior work) |
+| Publication target | 1 paper by Month 6, 8 papers over 3 years |
+| Startup potential | Real IP, real market (Railways, Defense, Smart Cities) |
+
+---
+
+### Project Principles
+
+1. **Maximum 2 active projects** — Focus beats breadth
+2. **Verification before portfolio** — No claiming what isn't proven
+3. **Documentation is part of the build** — Not an afterthought
+4. **Publication first, LinkedIn second** — Substance over signal
+
+### Cross References (Updated)
+
+- [184-Day Structure](../02-roadmap/184-DAY-STRUCTURE.md) — Project timing in phases
+- [QSIF BTP-II](QSIF-BTP-II.md) — Full QSIF specification
+- [Portfolio Strategy](portfolio-strategy.md) — How projects translate to career
+- [Research System](../08-research-system/README.md) — Paper writing process
+
